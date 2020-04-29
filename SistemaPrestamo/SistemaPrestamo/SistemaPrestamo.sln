@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{15FBE438-DD9A-486C-B4F3-7E25D7DA9B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{376AC630-C0E1-4238-BFF6-BD008FE75D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion", "Presentacion\Presentacion.csproj", "{6E948E08-1F1B-469D-98F3-1076C8C08474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15FBE438-DD9A-486C-B4F3-7E25D7DA9B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FBE438-DD9A-486C-B4F3-7E25D7DA9B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FBE438-DD9A-486C-B4F3-7E25D7DA9B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FBE438-DD9A-486C-B4F3-7E25D7DA9B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376AC630-C0E1-4238-BFF6-BD008FE75D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376AC630-C0E1-4238-BFF6-BD008FE75D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376AC630-C0E1-4238-BFF6-BD008FE75D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376AC630-C0E1-4238-BFF6-BD008FE75D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E948E08-1F1B-469D-98F3-1076C8C08474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E948E08-1F1B-469D-98F3-1076C8C08474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E948E08-1F1B-469D-98F3-1076C8C08474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E948E08-1F1B-469D-98F3-1076C8C08474}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A588288C-CC4F-420F-9693-6938030F666E}
+	EndGlobalSection
+EndGlobal
