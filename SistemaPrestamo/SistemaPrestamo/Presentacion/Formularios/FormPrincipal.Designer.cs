@@ -54,24 +54,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.panelMenu_Contenedor = new System.Windows.Forms.Panel();
             this.panelMenu_Consultas = new System.Windows.Forms.Panel();
-            this.iconButtonMenu_ListaCobros = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMenu_ListPrestamos = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMenu_CarteraPrestamos = new FontAwesome.Sharp.IconButton();
             this.panelMenu_Procesos = new System.Windows.Forms.Panel();
-            this.iconButtonMenu_ListaSolicitud = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMenu_GarantiaEconomica = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMenu_RegistrarSolicitud = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMenu_Clientes = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMenu_RegistarCobro = new FontAwesome.Sharp.IconButton();
             this.panelBarraTitulo = new System.Windows.Forms.Panel();
-            this.iconButtonMenu_Configuracion = new FontAwesome.Sharp.IconButton();
-            this.iconButtonTitulo_Consultas = new FontAwesome.Sharp.IconButton();
-            this.iconButtonTitulo_Procesos = new FontAwesome.Sharp.IconButton();
-            this.iconButtonTitulo_Inicio = new FontAwesome.Sharp.IconButton();
-            this.iconButtonTitulo_Minimizar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonTitulo_Restaurar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonTitulo_Maximizar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonTitulo_Cerrar = new FontAwesome.Sharp.IconButton();
             this.timerFechaHora = new System.Windows.Forms.Timer(this.components);
             this.tabPage_Solicitud = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -90,7 +74,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.iconButtonSolicitud_Calcular = new FontAwesome.Sharp.IconButton();
             this.label30 = new System.Windows.Forms.Label();
             this.dtpSolicitud_FechaPago = new System.Windows.Forms.DateTimePicker();
             this.comboBoxSolicitud_Gestor = new System.Windows.Forms.ComboBox();
@@ -127,7 +110,6 @@
             this.lblSolicitud_MontoSolicitado = new System.Windows.Forms.Label();
             this.panelSolicitud_Deudores = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.iconButtonSolicitud_BuscarCodigo = new FontAwesome.Sharp.IconButton();
             this.txtSolicitud_NombreObjecto = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.mtbSolicitud_CodigoObjeto = new System.Windows.Forms.MaskedTextBox();
@@ -135,7 +117,6 @@
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.txtSolicitud_ApellidosCoDeudor = new System.Windows.Forms.TextBox();
             this.lblSolicitud_ApelliosCoDeudor = new System.Windows.Forms.Label();
-            this.iconButtonSolicitud_BuscarCoDeudor = new FontAwesome.Sharp.IconButton();
             this.txtSolicitud_NombreCoDeudor = new System.Windows.Forms.TextBox();
             this.lblSolicitud_NombreCoDeudor = new System.Windows.Forms.Label();
             this.mtbSolicitud_NoDocumentoCoDeudor = new System.Windows.Forms.MaskedTextBox();
@@ -143,20 +124,12 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.txtSolicitud_ApellidosDeudor = new System.Windows.Forms.TextBox();
             this.lblSolicitud_ApelliosDeudor = new System.Windows.Forms.Label();
-            this.iconButtonSolicitud_BuscarDeudor = new FontAwesome.Sharp.IconButton();
             this.txtSolicitud_NombreDeudor = new System.Windows.Forms.TextBox();
             this.lblSolicitud_NombreDeudor = new System.Windows.Forms.Label();
             this.mtbSolicitud_NoDocumentoDeudor = new System.Windows.Forms.MaskedTextBox();
             this.lblSolicitud_NoDocumentoDeudor = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.iconButtonSolicitud_Imprimir = new FontAwesome.Sharp.IconButton();
-            this.iconButtonSolicitud_Resumen = new FontAwesome.Sharp.IconButton();
-            this.iconButtonSolicitud_Cancelar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonSolicitud_Editar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonSolicitud_Guardar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonSolicitud_Nuevo = new FontAwesome.Sharp.IconButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.iconButtonSolicitud_BuscarCodigoSolicitud = new FontAwesome.Sharp.IconButton();
             this.txtCodigoSolicitud = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -167,7 +140,6 @@
             this.tabPage_DatosPersonales = new System.Windows.Forms.TabPage();
             this.groupBoxCliente_datosPersonales = new System.Windows.Forms.GroupBox();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
-            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.checkBoxClientes_Estado = new System.Windows.Forms.CheckBox();
             this.labelClientes_Estado = new System.Windows.Forms.Label();
             this.textBoxClientes_Direccion = new System.Windows.Forms.TextBox();
@@ -216,10 +188,7 @@
             this.labelClientes_Empresa = new System.Windows.Forms.Label();
             this.tabPage_ReferenciasPersonales = new System.Windows.Forms.TabPage();
             this.groupBoxCliente_datosReferencias = new System.Windows.Forms.GroupBox();
-            this.iconButtonClientes_UpdateRef = new FontAwesome.Sharp.IconButton();
-            this.iconButtonClientes_EliminarReferencia = new FontAwesome.Sharp.IconButton();
             this.dataGridViewClientes_Referencias = new System.Windows.Forms.DataGridView();
-            this.iconButtonClientes_AgregarReferencia = new FontAwesome.Sharp.IconButton();
             this.textBoxClientes_CelularReferencias = new System.Windows.Forms.MaskedTextBox();
             this.labelClientes_CelularReferencia = new System.Windows.Forms.Label();
             this.textBoxClientes_DireccionReferencias = new System.Windows.Forms.TextBox();
@@ -230,10 +199,6 @@
             this.labelClientes_NombreFerencia = new System.Windows.Forms.Label();
             this.panelClienteBotonesPrimarios = new System.Windows.Forms.Panel();
             this.checkBoxClientes_VerInactivos = new System.Windows.Forms.CheckBox();
-            this.iconButtonClientes_Cancelar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonClientes_Editar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonClientes_Guardar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonClientes_Nuevo = new FontAwesome.Sharp.IconButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBoxClientes_Buscar = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -241,21 +206,22 @@
             this.tabControl_Contenedor = new System.Windows.Forms.TabControl();
             this.tabPage_Inicio = new System.Windows.Forms.TabPage();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.textBoxFecha = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.textBoxHora = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panelinicio = new System.Windows.Forms.Panel();
+            this.label54 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label52 = new System.Windows.Forms.Label();
             this.chartReportes_FormaPago = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartReportes_VigentesVsVencidas = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartReportes_PrestamosPorMes = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.iconButtonIncio_CapitalInvertido = new FontAwesome.Sharp.IconButton();
-            this.iconButtonIncio_NoSolicitudes = new FontAwesome.Sharp.IconButton();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label51 = new System.Windows.Forms.Label();
-            this.iconButtonIncio_NoCuotasV = new FontAwesome.Sharp.IconButton();
-            this.iconButtonIncio_NoPrest = new FontAwesome.Sharp.IconButton();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label38 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -263,22 +229,12 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
             this.tabPage_Cobros = new System.Windows.Forms.TabPage();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.groupBox19 = new System.Windows.Forms.GroupBox();
-            this.iconButtonCobrosFiltrarCobros = new FontAwesome.Sharp.IconButton();
-            this.dtpCobrosHasta = new System.Windows.Forms.DateTimePicker();
-            this.dtpCobrosDesde = new System.Windows.Forms.DateTimePicker();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.dataGridViewCobros_FiltroCobros = new System.Windows.Forms.DataGridView();
             this.panel8 = new System.Windows.Forms.Panel();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.dataGridViewCobrosReportePrestamo = new System.Windows.Forms.DataGridView();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.txtCobrosPagoCon = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
-            this.iconButtonCobrosCancelar = new FontAwesome.Sharp.IconButton();
-            this.iconButtonCobrosAplicarValores = new FontAwesome.Sharp.IconButton();
             this.txtCobrosDevuelta = new System.Windows.Forms.TextBox();
             this.label47 = new System.Windows.Forms.Label();
             this.txtCobrosConcepto = new System.Windows.Forms.TextBox();
@@ -294,8 +250,6 @@
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.txtCobrosCodigoCliente = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.iconButtonCobrosVerSolicitud = new FontAwesome.Sharp.IconButton();
-            this.iconButtonCobrosBuscarCliente = new FontAwesome.Sharp.IconButton();
             this.txtCobrosCodigoPrestamo = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
             this.txtCobrosNombreCliente = new System.Windows.Forms.TextBox();
@@ -312,7 +266,6 @@
             this.rbLS_PC = new System.Windows.Forms.RadioButton();
             this.rbLS_PA = new System.Windows.Forms.RadioButton();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.iconButtonLS_Cancelar = new FontAwesome.Sharp.IconButton();
             this.label34 = new System.Windows.Forms.Label();
             this.dataGridViewLS_Notas = new System.Windows.Forms.DataGridView();
             this.txtLS_CodigoSilicitud = new System.Windows.Forms.TextBox();
@@ -323,13 +276,11 @@
             this.label21 = new System.Windows.Forms.Label();
             this.cbbLS_EstadoSolicitud = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.iconButtonLS_Guardar = new FontAwesome.Sharp.IconButton();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
             this.tabPage_Reportes = new System.Windows.Forms.TabPage();
             this.panelContenedorForm = new System.Windows.Forms.Panel();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.iconButtonReporte_Cerrar = new FontAwesome.Sharp.IconButton();
             this.label_TituloFormularioHijo = new System.Windows.Forms.Label();
             this.tabPage_GarantiaEconomica = new System.Windows.Forms.TabPage();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
@@ -339,14 +290,91 @@
             this.label22 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.ControlsContainer = new Telerik.WinControls.UI.CollapsiblePanelControlsContainer();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.iconButtonIncio_CapitalVencido = new FontAwesome.Sharp.IconButton();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label52 = new System.Windows.Forms.Label();
+            this.dataGridViewCobros_FiltroCobros = new System.Windows.Forms.DataGridView();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.dtpCobrosDesde = new System.Windows.Forms.DateTimePicker();
+            this.dtpCobrosHasta = new System.Windows.Forms.DateTimePicker();
+            this.groupBox19 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.iconButtonIncio_ReporteCobros = new FontAwesome.Sharp.IconButton();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
+            this.iconButtonIncio_CapitalVencido = new FontAwesome.Sharp.IconButton();
+            this.iconButtonIncio_CapitalInvertido = new FontAwesome.Sharp.IconButton();
+            this.iconButtonIncio_NoSolicitudes = new FontAwesome.Sharp.IconButton();
+            this.iconButtonIncio_NoCuotasV = new FontAwesome.Sharp.IconButton();
+            this.iconButtonIncio_NoPrest = new FontAwesome.Sharp.IconButton();
+            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
+            this.iconButtonClientes_UpdateRef = new FontAwesome.Sharp.IconButton();
+            this.iconButtonClientes_EliminarReferencia = new FontAwesome.Sharp.IconButton();
+            this.iconButtonClientes_AgregarReferencia = new FontAwesome.Sharp.IconButton();
+            this.iconButtonClientes_Cancelar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonClientes_Editar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonClientes_Guardar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonClientes_Nuevo = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_Calcular = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_BuscarCodigo = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_BuscarCoDeudor = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_BuscarDeudor = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_Imprimir = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_Resumen = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_Cancelar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_Editar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_Guardar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_Nuevo = new FontAwesome.Sharp.IconButton();
+            this.iconButtonSolicitud_BuscarCodigoSolicitud = new FontAwesome.Sharp.IconButton();
+            this.iconButtonCobrosFiltrarCobros = new FontAwesome.Sharp.IconButton();
+            this.iconButtonCobrosCancelar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonCobrosAplicarValores = new FontAwesome.Sharp.IconButton();
+            this.iconButtonCobrosVerSolicitud = new FontAwesome.Sharp.IconButton();
+            this.iconButtonCobrosBuscarCliente = new FontAwesome.Sharp.IconButton();
+            this.iconButtonLS_Cancelar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonLS_Guardar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonReporte_Cerrar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_ListaCobros = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_ListPrestamos = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_CarteraPrestamos = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_ListaSolicitud = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_GarantiaEconomica = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_RegistrarSolicitud = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_Clientes = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_RegistarCobro = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMenu_Configuracion = new FontAwesome.Sharp.IconButton();
+            this.iconButtonTitulo_Consultas = new FontAwesome.Sharp.IconButton();
+            this.iconButtonTitulo_Procesos = new FontAwesome.Sharp.IconButton();
+            this.iconButtonTitulo_Inicio = new FontAwesome.Sharp.IconButton();
+            this.iconButtonTitulo_Minimizar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonTitulo_Restaurar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonTitulo_Maximizar = new FontAwesome.Sharp.IconButton();
+            this.iconButtonTitulo_Cerrar = new FontAwesome.Sharp.IconButton();
+            this.groupBoxCobro_DistribucionPago = new System.Windows.Forms.GroupBox();
+            this.txtCobros_TotalACobrar = new System.Windows.Forms.TextBox();
+            this.txtCobros_CapitalACobrar = new System.Windows.Forms.TextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.txtCobros_InteresACobrar = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.txtCobros_ComisionACobrar = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.txtCobros_MoraACobrar = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.txtCobros_CargosACobrar = new System.Windows.Forms.TextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.txtCobros_TotalPendiente = new System.Windows.Forms.TextBox();
+            this.txtCobros_CapitalPendiente = new System.Windows.Forms.TextBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.txtCobros_InteresPendiente = new System.Windows.Forms.TextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.txtCobros_ComisionPendiente = new System.Windows.Forms.TextBox();
+            this.label64 = new System.Windows.Forms.Label();
+            this.txtCobros_MoraPendiente = new System.Windows.Forms.TextBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.txtCobros_CargosPendiente = new System.Windows.Forms.TextBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.txtCobros_SeguroACobrar = new System.Windows.Forms.TextBox();
+            this.label67 = new System.Windows.Forms.Label();
+            this.txtCobros_SeguroPendiente = new System.Windows.Forms.TextBox();
+            this.label68 = new System.Windows.Forms.Label();
             this.panelMenu_Contenedor.SuspendLayout();
             this.panelMenu_Consultas.SuspendLayout();
             this.panelMenu_Procesos.SuspendLayout();
@@ -369,7 +397,6 @@
             this.groupBoxCliente_datosPersonales.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.tabPage_DatosLaborables.SuspendLayout();
             this.groupBoxCliente_datosLaborales.SuspendLayout();
             this.tabPage_ReferenciasPersonales.SuspendLayout();
@@ -380,8 +407,10 @@
             this.tabControl_Contenedor.SuspendLayout();
             this.tabPage_Inicio.SuspendLayout();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel11.SuspendLayout();
             this.panelinicio.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartReportes_FormaPago)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartReportes_VigentesVsVencidas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartReportes_PrestamosPorMes)).BeginInit();
@@ -390,9 +419,6 @@
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.tabPage_Cobros.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.groupBox19.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCobros_FiltroCobros)).BeginInit();
             this.panel8.SuspendLayout();
             this.groupBox18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCobrosReportePrestamo)).BeginInit();
@@ -414,9 +440,11 @@
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ControlsContainer)).BeginInit();
             this.ControlsContainer.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
-            this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCobros_FiltroCobros)).BeginInit();
+            this.groupBox19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
+            this.groupBoxCobro_DistribucionPago.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu_Contenedor
@@ -444,73 +472,6 @@
             this.panelMenu_Consultas.TabIndex = 23;
             this.panelMenu_Consultas.Visible = false;
             // 
-            // iconButtonMenu_ListaCobros
-            // 
-            this.iconButtonMenu_ListaCobros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(130)))), ((int)(((byte)(240)))));
-            this.iconButtonMenu_ListaCobros.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_ListaCobros.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_ListaCobros.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_ListaCobros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_ListaCobros.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_ListaCobros.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_ListaCobros.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_ListaCobros.IconChar = FontAwesome.Sharp.IconChar.HandHoldingUsd;
-            this.iconButtonMenu_ListaCobros.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_ListaCobros.IconSize = 50;
-            this.iconButtonMenu_ListaCobros.Location = new System.Drawing.Point(303, 0);
-            this.iconButtonMenu_ListaCobros.Name = "iconButtonMenu_ListaCobros";
-            this.iconButtonMenu_ListaCobros.Rotation = 0D;
-            this.iconButtonMenu_ListaCobros.Size = new System.Drawing.Size(127, 70);
-            this.iconButtonMenu_ListaCobros.TabIndex = 22;
-            this.iconButtonMenu_ListaCobros.Text = "Reporte Cobros";
-            this.iconButtonMenu_ListaCobros.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_ListaCobros.UseVisualStyleBackColor = false;
-            this.iconButtonMenu_ListaCobros.Click += new System.EventHandler(this.iconButtonMenu_ListaCobros_Click);
-            // 
-            // iconButtonMenu_ListPrestamos
-            // 
-            this.iconButtonMenu_ListPrestamos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_ListPrestamos.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_ListPrestamos.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_ListPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_ListPrestamos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_ListPrestamos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_ListPrestamos.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_ListPrestamos.IconChar = FontAwesome.Sharp.IconChar.FileAlt;
-            this.iconButtonMenu_ListPrestamos.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_ListPrestamos.IconSize = 50;
-            this.iconButtonMenu_ListPrestamos.Location = new System.Drawing.Point(149, 0);
-            this.iconButtonMenu_ListPrestamos.Name = "iconButtonMenu_ListPrestamos";
-            this.iconButtonMenu_ListPrestamos.Rotation = 0D;
-            this.iconButtonMenu_ListPrestamos.Size = new System.Drawing.Size(154, 70);
-            this.iconButtonMenu_ListPrestamos.TabIndex = 21;
-            this.iconButtonMenu_ListPrestamos.Text = "Reporte Préstamos";
-            this.iconButtonMenu_ListPrestamos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_ListPrestamos.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_ListPrestamos.Click += new System.EventHandler(this.iconButtonMenu_ListPrestamos_Click);
-            // 
-            // iconButtonMenu_CarteraPrestamos
-            // 
-            this.iconButtonMenu_CarteraPrestamos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_CarteraPrestamos.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_CarteraPrestamos.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_CarteraPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_CarteraPrestamos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_CarteraPrestamos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_CarteraPrestamos.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_CarteraPrestamos.IconChar = FontAwesome.Sharp.IconChar.FileInvoiceDollar;
-            this.iconButtonMenu_CarteraPrestamos.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_CarteraPrestamos.IconSize = 50;
-            this.iconButtonMenu_CarteraPrestamos.Location = new System.Drawing.Point(0, 0);
-            this.iconButtonMenu_CarteraPrestamos.Name = "iconButtonMenu_CarteraPrestamos";
-            this.iconButtonMenu_CarteraPrestamos.Rotation = 0D;
-            this.iconButtonMenu_CarteraPrestamos.Size = new System.Drawing.Size(149, 70);
-            this.iconButtonMenu_CarteraPrestamos.TabIndex = 20;
-            this.iconButtonMenu_CarteraPrestamos.Text = "Cartera  Préstamos";
-            this.iconButtonMenu_CarteraPrestamos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_CarteraPrestamos.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_CarteraPrestamos.Click += new System.EventHandler(this.iconButtonMenu_ListaPrestamos_Click);
-            // 
             // panelMenu_Procesos
             // 
             this.panelMenu_Procesos.AutoScroll = true;
@@ -525,116 +486,6 @@
             this.panelMenu_Procesos.Size = new System.Drawing.Size(671, 70);
             this.panelMenu_Procesos.TabIndex = 20;
             this.panelMenu_Procesos.Visible = false;
-            // 
-            // iconButtonMenu_ListaSolicitud
-            // 
-            this.iconButtonMenu_ListaSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_ListaSolicitud.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_ListaSolicitud.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_ListaSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_ListaSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_ListaSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_ListaSolicitud.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_ListaSolicitud.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.iconButtonMenu_ListaSolicitud.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_ListaSolicitud.IconSize = 45;
-            this.iconButtonMenu_ListaSolicitud.Location = new System.Drawing.Point(473, 0);
-            this.iconButtonMenu_ListaSolicitud.Name = "iconButtonMenu_ListaSolicitud";
-            this.iconButtonMenu_ListaSolicitud.Rotation = 0D;
-            this.iconButtonMenu_ListaSolicitud.Size = new System.Drawing.Size(170, 70);
-            this.iconButtonMenu_ListaSolicitud.TabIndex = 19;
-            this.iconButtonMenu_ListaSolicitud.Text = "Seguimiento Solicitud";
-            this.iconButtonMenu_ListaSolicitud.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_ListaSolicitud.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_ListaSolicitud.Click += new System.EventHandler(this.iconButtonMenu_ListaSolicitud_Click);
-            // 
-            // iconButtonMenu_GarantiaEconomica
-            // 
-            this.iconButtonMenu_GarantiaEconomica.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_GarantiaEconomica.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_GarantiaEconomica.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_GarantiaEconomica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_GarantiaEconomica.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_GarantiaEconomica.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_GarantiaEconomica.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_GarantiaEconomica.IconChar = FontAwesome.Sharp.IconChar.Award;
-            this.iconButtonMenu_GarantiaEconomica.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_GarantiaEconomica.IconSize = 45;
-            this.iconButtonMenu_GarantiaEconomica.Location = new System.Drawing.Point(355, 0);
-            this.iconButtonMenu_GarantiaEconomica.Name = "iconButtonMenu_GarantiaEconomica";
-            this.iconButtonMenu_GarantiaEconomica.Rotation = 0D;
-            this.iconButtonMenu_GarantiaEconomica.Size = new System.Drawing.Size(118, 70);
-            this.iconButtonMenu_GarantiaEconomica.TabIndex = 21;
-            this.iconButtonMenu_GarantiaEconomica.Text = "Crear Garantía";
-            this.iconButtonMenu_GarantiaEconomica.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_GarantiaEconomica.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_GarantiaEconomica.Click += new System.EventHandler(this.iconButtonMenu_GarantiaEconomica_Click);
-            // 
-            // iconButtonMenu_RegistrarSolicitud
-            // 
-            this.iconButtonMenu_RegistrarSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_RegistrarSolicitud.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_RegistrarSolicitud.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_RegistrarSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_RegistrarSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_RegistrarSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_RegistrarSolicitud.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_RegistrarSolicitud.IconChar = FontAwesome.Sharp.IconChar.Elementor;
-            this.iconButtonMenu_RegistrarSolicitud.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_RegistrarSolicitud.IconSize = 45;
-            this.iconButtonMenu_RegistrarSolicitud.Location = new System.Drawing.Point(237, 0);
-            this.iconButtonMenu_RegistrarSolicitud.Name = "iconButtonMenu_RegistrarSolicitud";
-            this.iconButtonMenu_RegistrarSolicitud.Rotation = 0D;
-            this.iconButtonMenu_RegistrarSolicitud.Size = new System.Drawing.Size(118, 70);
-            this.iconButtonMenu_RegistrarSolicitud.TabIndex = 17;
-            this.iconButtonMenu_RegistrarSolicitud.Text = "Crear Solicitud";
-            this.iconButtonMenu_RegistrarSolicitud.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_RegistrarSolicitud.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_RegistrarSolicitud.Click += new System.EventHandler(this.iconButtonMenu_CrearSolicitud_Click);
-            // 
-            // iconButtonMenu_Clientes
-            // 
-            this.iconButtonMenu_Clientes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_Clientes.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_Clientes.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_Clientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_Clientes.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_Clientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_Clientes.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_Clientes.IconChar = FontAwesome.Sharp.IconChar.UserTie;
-            this.iconButtonMenu_Clientes.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_Clientes.IconSize = 45;
-            this.iconButtonMenu_Clientes.Location = new System.Drawing.Point(129, 0);
-            this.iconButtonMenu_Clientes.Name = "iconButtonMenu_Clientes";
-            this.iconButtonMenu_Clientes.Rotation = 0D;
-            this.iconButtonMenu_Clientes.Size = new System.Drawing.Size(108, 70);
-            this.iconButtonMenu_Clientes.TabIndex = 16;
-            this.iconButtonMenu_Clientes.Text = "Crear Cliente";
-            this.iconButtonMenu_Clientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_Clientes.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_Clientes.Click += new System.EventHandler(this.iconButtonMenu_Clientes_Click);
-            // 
-            // iconButtonMenu_RegistarCobro
-            // 
-            this.iconButtonMenu_RegistarCobro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_RegistarCobro.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_RegistarCobro.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_RegistarCobro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_RegistarCobro.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_RegistarCobro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_RegistarCobro.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_RegistarCobro.IconChar = FontAwesome.Sharp.IconChar.CashRegister;
-            this.iconButtonMenu_RegistarCobro.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_RegistarCobro.IconSize = 45;
-            this.iconButtonMenu_RegistarCobro.Location = new System.Drawing.Point(0, 0);
-            this.iconButtonMenu_RegistarCobro.Name = "iconButtonMenu_RegistarCobro";
-            this.iconButtonMenu_RegistarCobro.Rotation = 0D;
-            this.iconButtonMenu_RegistarCobro.Size = new System.Drawing.Size(129, 70);
-            this.iconButtonMenu_RegistarCobro.TabIndex = 18;
-            this.iconButtonMenu_RegistarCobro.Text = "Registrar Cobro";
-            this.iconButtonMenu_RegistarCobro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.iconButtonMenu_RegistarCobro.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_RegistarCobro.Click += new System.EventHandler(this.iconButtonMenu_RegistarCobro_Click);
             // 
             // panelBarraTitulo
             // 
@@ -653,163 +504,6 @@
             this.panelBarraTitulo.Size = new System.Drawing.Size(1284, 30);
             this.panelBarraTitulo.TabIndex = 2;
             this.panelBarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelBarraTitulo_MouseDown);
-            // 
-            // iconButtonMenu_Configuracion
-            // 
-            this.iconButtonMenu_Configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonMenu_Configuracion.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonMenu_Configuracion.FlatAppearance.BorderSize = 0;
-            this.iconButtonMenu_Configuracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMenu_Configuracion.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMenu_Configuracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonMenu_Configuracion.ForeColor = System.Drawing.Color.White;
-            this.iconButtonMenu_Configuracion.IconChar = FontAwesome.Sharp.IconChar.Tools;
-            this.iconButtonMenu_Configuracion.IconColor = System.Drawing.Color.White;
-            this.iconButtonMenu_Configuracion.IconSize = 30;
-            this.iconButtonMenu_Configuracion.Location = new System.Drawing.Point(474, 0);
-            this.iconButtonMenu_Configuracion.Name = "iconButtonMenu_Configuracion";
-            this.iconButtonMenu_Configuracion.Rotation = 0D;
-            this.iconButtonMenu_Configuracion.Size = new System.Drawing.Size(158, 30);
-            this.iconButtonMenu_Configuracion.TabIndex = 22;
-            this.iconButtonMenu_Configuracion.Text = "Configuraciones";
-            this.iconButtonMenu_Configuracion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonMenu_Configuracion.UseVisualStyleBackColor = true;
-            this.iconButtonMenu_Configuracion.Click += new System.EventHandler(this.iconButtonMenu_Configuracion_Click);
-            // 
-            // iconButtonTitulo_Consultas
-            // 
-            this.iconButtonTitulo_Consultas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonTitulo_Consultas.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonTitulo_Consultas.FlatAppearance.BorderSize = 0;
-            this.iconButtonTitulo_Consultas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonTitulo_Consultas.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonTitulo_Consultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonTitulo_Consultas.ForeColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Consultas.IconChar = FontAwesome.Sharp.IconChar.Eye;
-            this.iconButtonTitulo_Consultas.IconColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Consultas.IconSize = 30;
-            this.iconButtonTitulo_Consultas.Location = new System.Drawing.Point(316, 0);
-            this.iconButtonTitulo_Consultas.Name = "iconButtonTitulo_Consultas";
-            this.iconButtonTitulo_Consultas.Rotation = 0D;
-            this.iconButtonTitulo_Consultas.Size = new System.Drawing.Size(158, 30);
-            this.iconButtonTitulo_Consultas.TabIndex = 25;
-            this.iconButtonTitulo_Consultas.Text = "Reportes";
-            this.iconButtonTitulo_Consultas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonTitulo_Consultas.UseVisualStyleBackColor = true;
-            this.iconButtonTitulo_Consultas.Click += new System.EventHandler(this.iconButtonTitulo_Consultas_Click);
-            // 
-            // iconButtonTitulo_Procesos
-            // 
-            this.iconButtonTitulo_Procesos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonTitulo_Procesos.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonTitulo_Procesos.FlatAppearance.BorderSize = 0;
-            this.iconButtonTitulo_Procesos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonTitulo_Procesos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonTitulo_Procesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonTitulo_Procesos.ForeColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Procesos.IconChar = FontAwesome.Sharp.IconChar.Cogs;
-            this.iconButtonTitulo_Procesos.IconColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Procesos.IconSize = 30;
-            this.iconButtonTitulo_Procesos.Location = new System.Drawing.Point(158, 0);
-            this.iconButtonTitulo_Procesos.Name = "iconButtonTitulo_Procesos";
-            this.iconButtonTitulo_Procesos.Rotation = 0D;
-            this.iconButtonTitulo_Procesos.Size = new System.Drawing.Size(158, 30);
-            this.iconButtonTitulo_Procesos.TabIndex = 24;
-            this.iconButtonTitulo_Procesos.Text = "Procesos";
-            this.iconButtonTitulo_Procesos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonTitulo_Procesos.UseVisualStyleBackColor = true;
-            this.iconButtonTitulo_Procesos.Click += new System.EventHandler(this.iconButtonTitulo_Procesos_Click);
-            // 
-            // iconButtonTitulo_Inicio
-            // 
-            this.iconButtonTitulo_Inicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonTitulo_Inicio.Dock = System.Windows.Forms.DockStyle.Left;
-            this.iconButtonTitulo_Inicio.FlatAppearance.BorderSize = 0;
-            this.iconButtonTitulo_Inicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonTitulo_Inicio.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonTitulo_Inicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonTitulo_Inicio.ForeColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Inicio.IconChar = FontAwesome.Sharp.IconChar.Home;
-            this.iconButtonTitulo_Inicio.IconColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Inicio.IconSize = 30;
-            this.iconButtonTitulo_Inicio.Location = new System.Drawing.Point(0, 0);
-            this.iconButtonTitulo_Inicio.Name = "iconButtonTitulo_Inicio";
-            this.iconButtonTitulo_Inicio.Rotation = 0D;
-            this.iconButtonTitulo_Inicio.Size = new System.Drawing.Size(158, 30);
-            this.iconButtonTitulo_Inicio.TabIndex = 23;
-            this.iconButtonTitulo_Inicio.Text = "inicio";
-            this.iconButtonTitulo_Inicio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButtonTitulo_Inicio.UseVisualStyleBackColor = true;
-            this.iconButtonTitulo_Inicio.Click += new System.EventHandler(this.iconButtonTitulo_Inicio_Click);
-            // 
-            // iconButtonTitulo_Minimizar
-            // 
-            this.iconButtonTitulo_Minimizar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.iconButtonTitulo_Minimizar.FlatAppearance.BorderSize = 0;
-            this.iconButtonTitulo_Minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonTitulo_Minimizar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonTitulo_Minimizar.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
-            this.iconButtonTitulo_Minimizar.IconColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Minimizar.IconSize = 20;
-            this.iconButtonTitulo_Minimizar.Location = new System.Drawing.Point(1164, 0);
-            this.iconButtonTitulo_Minimizar.Name = "iconButtonTitulo_Minimizar";
-            this.iconButtonTitulo_Minimizar.Rotation = 0D;
-            this.iconButtonTitulo_Minimizar.Size = new System.Drawing.Size(30, 30);
-            this.iconButtonTitulo_Minimizar.TabIndex = 3;
-            this.iconButtonTitulo_Minimizar.UseVisualStyleBackColor = true;
-            this.iconButtonTitulo_Minimizar.Click += new System.EventHandler(this.iconButtonTitulo_Minimizar_Click);
-            // 
-            // iconButtonTitulo_Restaurar
-            // 
-            this.iconButtonTitulo_Restaurar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.iconButtonTitulo_Restaurar.FlatAppearance.BorderSize = 0;
-            this.iconButtonTitulo_Restaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonTitulo_Restaurar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonTitulo_Restaurar.IconChar = FontAwesome.Sharp.IconChar.WindowRestore;
-            this.iconButtonTitulo_Restaurar.IconColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Restaurar.IconSize = 20;
-            this.iconButtonTitulo_Restaurar.Location = new System.Drawing.Point(1194, 0);
-            this.iconButtonTitulo_Restaurar.Name = "iconButtonTitulo_Restaurar";
-            this.iconButtonTitulo_Restaurar.Rotation = 0D;
-            this.iconButtonTitulo_Restaurar.Size = new System.Drawing.Size(30, 30);
-            this.iconButtonTitulo_Restaurar.TabIndex = 2;
-            this.iconButtonTitulo_Restaurar.UseVisualStyleBackColor = true;
-            this.iconButtonTitulo_Restaurar.Click += new System.EventHandler(this.iconButtonTitulo_Restaurar_Click);
-            // 
-            // iconButtonTitulo_Maximizar
-            // 
-            this.iconButtonTitulo_Maximizar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.iconButtonTitulo_Maximizar.FlatAppearance.BorderSize = 0;
-            this.iconButtonTitulo_Maximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonTitulo_Maximizar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonTitulo_Maximizar.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            this.iconButtonTitulo_Maximizar.IconColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Maximizar.IconSize = 20;
-            this.iconButtonTitulo_Maximizar.Location = new System.Drawing.Point(1224, 0);
-            this.iconButtonTitulo_Maximizar.Name = "iconButtonTitulo_Maximizar";
-            this.iconButtonTitulo_Maximizar.Rotation = 0D;
-            this.iconButtonTitulo_Maximizar.Size = new System.Drawing.Size(30, 30);
-            this.iconButtonTitulo_Maximizar.TabIndex = 1;
-            this.iconButtonTitulo_Maximizar.UseVisualStyleBackColor = true;
-            this.iconButtonTitulo_Maximizar.Visible = false;
-            this.iconButtonTitulo_Maximizar.Click += new System.EventHandler(this.iconButtonTitulo_Maximizar_Click);
-            // 
-            // iconButtonTitulo_Cerrar
-            // 
-            this.iconButtonTitulo_Cerrar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.iconButtonTitulo_Cerrar.FlatAppearance.BorderSize = 0;
-            this.iconButtonTitulo_Cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonTitulo_Cerrar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonTitulo_Cerrar.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.iconButtonTitulo_Cerrar.IconColor = System.Drawing.Color.White;
-            this.iconButtonTitulo_Cerrar.IconSize = 20;
-            this.iconButtonTitulo_Cerrar.Location = new System.Drawing.Point(1254, 0);
-            this.iconButtonTitulo_Cerrar.Name = "iconButtonTitulo_Cerrar";
-            this.iconButtonTitulo_Cerrar.Rotation = 0D;
-            this.iconButtonTitulo_Cerrar.Size = new System.Drawing.Size(30, 30);
-            this.iconButtonTitulo_Cerrar.TabIndex = 0;
-            this.iconButtonTitulo_Cerrar.UseVisualStyleBackColor = true;
-            this.iconButtonTitulo_Cerrar.Click += new System.EventHandler(this.iconButtonTitulo_Cerrar_Click);
             // 
             // timerFechaHora
             // 
@@ -1058,30 +752,6 @@
             this.label5.TabIndex = 132;
             this.label5.Text = "*";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // iconButtonSolicitud_Calcular
-            // 
-            this.iconButtonSolicitud_Calcular.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonSolicitud_Calcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(130)))), ((int)(((byte)(240)))));
-            this.iconButtonSolicitud_Calcular.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_Calcular.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_Calcular.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_Calcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_Calcular.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_Calcular.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Calcular.IconChar = FontAwesome.Sharp.IconChar.Calculator;
-            this.iconButtonSolicitud_Calcular.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Calcular.IconSize = 30;
-            this.iconButtonSolicitud_Calcular.Location = new System.Drawing.Point(857, 173);
-            this.iconButtonSolicitud_Calcular.Name = "iconButtonSolicitud_Calcular";
-            this.iconButtonSolicitud_Calcular.Rotation = 0D;
-            this.iconButtonSolicitud_Calcular.Size = new System.Drawing.Size(135, 39);
-            this.iconButtonSolicitud_Calcular.TabIndex = 17;
-            this.iconButtonSolicitud_Calcular.Text = "Calcular";
-            this.iconButtonSolicitud_Calcular.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_Calcular.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_Calcular.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_Calcular.Click += new System.EventHandler(this.iconButtonSolicitud_Calcular_Click);
             // 
             // label30
             // 
@@ -1529,30 +1199,6 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Garantia Economica";
             // 
-            // iconButtonSolicitud_BuscarCodigo
-            // 
-            this.iconButtonSolicitud_BuscarCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonSolicitud_BuscarCodigo.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.iconButtonSolicitud_BuscarCodigo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_BuscarCodigo.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_BuscarCodigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_BuscarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_BuscarCodigo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_BuscarCodigo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonSolicitud_BuscarCodigo.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarCodigo.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
-            this.iconButtonSolicitud_BuscarCodigo.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarCodigo.IconSize = 25;
-            this.iconButtonSolicitud_BuscarCodigo.Location = new System.Drawing.Point(156, 35);
-            this.iconButtonSolicitud_BuscarCodigo.Name = "iconButtonSolicitud_BuscarCodigo";
-            this.iconButtonSolicitud_BuscarCodigo.Rotation = 0D;
-            this.iconButtonSolicitud_BuscarCodigo.Size = new System.Drawing.Size(45, 27);
-            this.iconButtonSolicitud_BuscarCodigo.TabIndex = 59;
-            this.iconButtonSolicitud_BuscarCodigo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_BuscarCodigo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_BuscarCodigo.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_BuscarCodigo.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarCodigo_Click);
-            // 
             // txtSolicitud_NombreObjecto
             // 
             this.txtSolicitud_NombreObjecto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1649,30 +1295,6 @@
             this.lblSolicitud_ApelliosCoDeudor.Size = new System.Drawing.Size(65, 16);
             this.lblSolicitud_ApelliosCoDeudor.TabIndex = 63;
             this.lblSolicitud_ApelliosCoDeudor.Text = "Apellidos";
-            // 
-            // iconButtonSolicitud_BuscarCoDeudor
-            // 
-            this.iconButtonSolicitud_BuscarCoDeudor.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonSolicitud_BuscarCoDeudor.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.iconButtonSolicitud_BuscarCoDeudor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_BuscarCoDeudor.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_BuscarCoDeudor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_BuscarCoDeudor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_BuscarCoDeudor.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_BuscarCoDeudor.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonSolicitud_BuscarCoDeudor.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarCoDeudor.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
-            this.iconButtonSolicitud_BuscarCoDeudor.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarCoDeudor.IconSize = 25;
-            this.iconButtonSolicitud_BuscarCoDeudor.Location = new System.Drawing.Point(156, 40);
-            this.iconButtonSolicitud_BuscarCoDeudor.Name = "iconButtonSolicitud_BuscarCoDeudor";
-            this.iconButtonSolicitud_BuscarCoDeudor.Rotation = 0D;
-            this.iconButtonSolicitud_BuscarCoDeudor.Size = new System.Drawing.Size(45, 27);
-            this.iconButtonSolicitud_BuscarCoDeudor.TabIndex = 59;
-            this.iconButtonSolicitud_BuscarCoDeudor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_BuscarCoDeudor.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_BuscarCoDeudor.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_BuscarCoDeudor.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarCoDeudor_Click);
             // 
             // txtSolicitud_NombreCoDeudor
             // 
@@ -1771,30 +1393,6 @@
             this.lblSolicitud_ApelliosDeudor.TabIndex = 70;
             this.lblSolicitud_ApelliosDeudor.Text = "Apellidos";
             // 
-            // iconButtonSolicitud_BuscarDeudor
-            // 
-            this.iconButtonSolicitud_BuscarDeudor.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonSolicitud_BuscarDeudor.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.iconButtonSolicitud_BuscarDeudor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_BuscarDeudor.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_BuscarDeudor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_BuscarDeudor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_BuscarDeudor.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_BuscarDeudor.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonSolicitud_BuscarDeudor.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarDeudor.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
-            this.iconButtonSolicitud_BuscarDeudor.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarDeudor.IconSize = 25;
-            this.iconButtonSolicitud_BuscarDeudor.Location = new System.Drawing.Point(156, 35);
-            this.iconButtonSolicitud_BuscarDeudor.Name = "iconButtonSolicitud_BuscarDeudor";
-            this.iconButtonSolicitud_BuscarDeudor.Rotation = 0D;
-            this.iconButtonSolicitud_BuscarDeudor.Size = new System.Drawing.Size(45, 27);
-            this.iconButtonSolicitud_BuscarDeudor.TabIndex = 68;
-            this.iconButtonSolicitud_BuscarDeudor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_BuscarDeudor.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_BuscarDeudor.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_BuscarDeudor.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarDeudor_Click);
-            // 
             // txtSolicitud_NombreDeudor
             // 
             this.txtSolicitud_NombreDeudor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1861,149 +1459,6 @@
             this.panel1.Size = new System.Drawing.Size(1276, 55);
             this.panel1.TabIndex = 9;
             // 
-            // iconButtonSolicitud_Imprimir
-            // 
-            this.iconButtonSolicitud_Imprimir.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonSolicitud_Imprimir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(15)))), ((int)(((byte)(80)))));
-            this.iconButtonSolicitud_Imprimir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_Imprimir.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_Imprimir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_Imprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_Imprimir.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_Imprimir.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Imprimir.IconChar = FontAwesome.Sharp.IconChar.Print;
-            this.iconButtonSolicitud_Imprimir.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Imprimir.IconSize = 30;
-            this.iconButtonSolicitud_Imprimir.Location = new System.Drawing.Point(1130, 6);
-            this.iconButtonSolicitud_Imprimir.Name = "iconButtonSolicitud_Imprimir";
-            this.iconButtonSolicitud_Imprimir.Rotation = 0D;
-            this.iconButtonSolicitud_Imprimir.Size = new System.Drawing.Size(143, 33);
-            this.iconButtonSolicitud_Imprimir.TabIndex = 24;
-            this.iconButtonSolicitud_Imprimir.Text = "Imprimir";
-            this.iconButtonSolicitud_Imprimir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_Imprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_Imprimir.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_Imprimir.Click += new System.EventHandler(this.iconButtonSolicitud_Imprimir_Click);
-            // 
-            // iconButtonSolicitud_Resumen
-            // 
-            this.iconButtonSolicitud_Resumen.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonSolicitud_Resumen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(15)))), ((int)(((byte)(80)))));
-            this.iconButtonSolicitud_Resumen.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_Resumen.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_Resumen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_Resumen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_Resumen.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_Resumen.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Resumen.IconChar = FontAwesome.Sharp.IconChar.ThList;
-            this.iconButtonSolicitud_Resumen.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Resumen.IconSize = 30;
-            this.iconButtonSolicitud_Resumen.Location = new System.Drawing.Point(981, 6);
-            this.iconButtonSolicitud_Resumen.Name = "iconButtonSolicitud_Resumen";
-            this.iconButtonSolicitud_Resumen.Rotation = 0D;
-            this.iconButtonSolicitud_Resumen.Size = new System.Drawing.Size(143, 33);
-            this.iconButtonSolicitud_Resumen.TabIndex = 23;
-            this.iconButtonSolicitud_Resumen.Text = "Ver Resumen";
-            this.iconButtonSolicitud_Resumen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_Resumen.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_Resumen.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_Resumen.Click += new System.EventHandler(this.iconButtonSolicitud_Resumen_Click);
-            // 
-            // iconButtonSolicitud_Cancelar
-            // 
-            this.iconButtonSolicitud_Cancelar.BackColor = System.Drawing.Color.Crimson;
-            this.iconButtonSolicitud_Cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_Cancelar.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_Cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_Cancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonSolicitud_Cancelar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Cancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
-            this.iconButtonSolicitud_Cancelar.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Cancelar.IconSize = 30;
-            this.iconButtonSolicitud_Cancelar.Location = new System.Drawing.Point(228, 6);
-            this.iconButtonSolicitud_Cancelar.Name = "iconButtonSolicitud_Cancelar";
-            this.iconButtonSolicitud_Cancelar.Rotation = 0D;
-            this.iconButtonSolicitud_Cancelar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonSolicitud_Cancelar.TabIndex = 20;
-            this.iconButtonSolicitud_Cancelar.Text = "Cancelar";
-            this.iconButtonSolicitud_Cancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_Cancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_Cancelar.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_Cancelar.Click += new System.EventHandler(this.iconButtonSolicitud_Cancelar_Click);
-            // 
-            // iconButtonSolicitud_Editar
-            // 
-            this.iconButtonSolicitud_Editar.BackColor = System.Drawing.Color.Orange;
-            this.iconButtonSolicitud_Editar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_Editar.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_Editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_Editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_Editar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_Editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonSolicitud_Editar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Editar.IconChar = FontAwesome.Sharp.IconChar.Edit;
-            this.iconButtonSolicitud_Editar.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Editar.IconSize = 30;
-            this.iconButtonSolicitud_Editar.Location = new System.Drawing.Point(116, 6);
-            this.iconButtonSolicitud_Editar.Name = "iconButtonSolicitud_Editar";
-            this.iconButtonSolicitud_Editar.Rotation = 0D;
-            this.iconButtonSolicitud_Editar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonSolicitud_Editar.TabIndex = 21;
-            this.iconButtonSolicitud_Editar.Text = "Editar";
-            this.iconButtonSolicitud_Editar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_Editar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_Editar.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_Editar.Click += new System.EventHandler(this.iconButtonSolicitud_Editar_Click);
-            // 
-            // iconButtonSolicitud_Guardar
-            // 
-            this.iconButtonSolicitud_Guardar.BackColor = System.Drawing.Color.Green;
-            this.iconButtonSolicitud_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_Guardar.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_Guardar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_Guardar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Guardar.IconChar = FontAwesome.Sharp.IconChar.Save;
-            this.iconButtonSolicitud_Guardar.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Guardar.IconSize = 30;
-            this.iconButtonSolicitud_Guardar.Location = new System.Drawing.Point(339, 6);
-            this.iconButtonSolicitud_Guardar.Name = "iconButtonSolicitud_Guardar";
-            this.iconButtonSolicitud_Guardar.Rotation = 0D;
-            this.iconButtonSolicitud_Guardar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonSolicitud_Guardar.TabIndex = 19;
-            this.iconButtonSolicitud_Guardar.Text = "Guardar";
-            this.iconButtonSolicitud_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_Guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_Guardar.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_Guardar.Click += new System.EventHandler(this.iconButtonSolicitud_Guardar_Click);
-            // 
-            // iconButtonSolicitud_Nuevo
-            // 
-            this.iconButtonSolicitud_Nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(102)))), ((int)(((byte)(240)))));
-            this.iconButtonSolicitud_Nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_Nuevo.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_Nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_Nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_Nuevo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_Nuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonSolicitud_Nuevo.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Nuevo.IconChar = FontAwesome.Sharp.IconChar.File;
-            this.iconButtonSolicitud_Nuevo.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_Nuevo.IconSize = 30;
-            this.iconButtonSolicitud_Nuevo.Location = new System.Drawing.Point(4, 6);
-            this.iconButtonSolicitud_Nuevo.Name = "iconButtonSolicitud_Nuevo";
-            this.iconButtonSolicitud_Nuevo.Rotation = 0D;
-            this.iconButtonSolicitud_Nuevo.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonSolicitud_Nuevo.TabIndex = 22;
-            this.iconButtonSolicitud_Nuevo.Text = "Nuevo";
-            this.iconButtonSolicitud_Nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_Nuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_Nuevo.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_Nuevo.Click += new System.EventHandler(this.iconButtonSolicitud_Nuevo_Click);
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.iconButtonSolicitud_BuscarCodigoSolicitud);
@@ -2017,31 +1472,6 @@
             this.groupBox2.Size = new System.Drawing.Size(1276, 40);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            // 
-            // iconButtonSolicitud_BuscarCodigoSolicitud
-            // 
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.FlatAppearance.BorderSize = 0;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.ForeColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.IconColor = System.Drawing.Color.White;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.IconSize = 20;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Location = new System.Drawing.Point(616, 11);
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Name = "iconButtonSolicitud_BuscarCodigoSolicitud";
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Rotation = 0D;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Size = new System.Drawing.Size(45, 22);
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.TabIndex = 60;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.UseVisualStyleBackColor = false;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Visible = false;
-            this.iconButtonSolicitud_BuscarCodigoSolicitud.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarCodigoSolicitud_Click);
             // 
             // txtCodigoSolicitud
             // 
@@ -2187,20 +1617,6 @@
             this.radGroupBox1.Size = new System.Drawing.Size(149, 83);
             this.radGroupBox1.TabIndex = 67;
             this.radGroupBox1.Text = "Perfil";
-            // 
-            // iconPictureBox1
-            // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.iconPictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.iconPictureBox1.ForeColor = System.Drawing.Color.Black;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconPictureBox1.IconColor = System.Drawing.Color.Black;
-            this.iconPictureBox1.IconSize = 63;
-            this.iconPictureBox1.Location = new System.Drawing.Point(2, 18);
-            this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(145, 63);
-            this.iconPictureBox1.TabIndex = 66;
-            this.iconPictureBox1.TabStop = false;
             // 
             // checkBoxClientes_Estado
             // 
@@ -2852,54 +2268,6 @@
             this.groupBoxCliente_datosReferencias.TabIndex = 5;
             this.groupBoxCliente_datosReferencias.TabStop = false;
             // 
-            // iconButtonClientes_UpdateRef
-            // 
-            this.iconButtonClientes_UpdateRef.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconButtonClientes_UpdateRef.BackColor = System.Drawing.Color.SteelBlue;
-            this.iconButtonClientes_UpdateRef.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonClientes_UpdateRef.FlatAppearance.BorderSize = 0;
-            this.iconButtonClientes_UpdateRef.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonClientes_UpdateRef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonClientes_UpdateRef.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonClientes_UpdateRef.ForeColor = System.Drawing.Color.White;
-            this.iconButtonClientes_UpdateRef.IconChar = FontAwesome.Sharp.IconChar.Sync;
-            this.iconButtonClientes_UpdateRef.IconColor = System.Drawing.Color.White;
-            this.iconButtonClientes_UpdateRef.IconSize = 30;
-            this.iconButtonClientes_UpdateRef.Location = new System.Drawing.Point(257, 207);
-            this.iconButtonClientes_UpdateRef.Name = "iconButtonClientes_UpdateRef";
-            this.iconButtonClientes_UpdateRef.Rotation = 0D;
-            this.iconButtonClientes_UpdateRef.Size = new System.Drawing.Size(122, 30);
-            this.iconButtonClientes_UpdateRef.TabIndex = 51;
-            this.iconButtonClientes_UpdateRef.Text = "Actualizar";
-            this.iconButtonClientes_UpdateRef.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonClientes_UpdateRef.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonClientes_UpdateRef.UseVisualStyleBackColor = false;
-            this.iconButtonClientes_UpdateRef.Click += new System.EventHandler(this.iconButtonClientes_UpdateRef_Click);
-            // 
-            // iconButtonClientes_EliminarReferencia
-            // 
-            this.iconButtonClientes_EliminarReferencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconButtonClientes_EliminarReferencia.BackColor = System.Drawing.Color.Red;
-            this.iconButtonClientes_EliminarReferencia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonClientes_EliminarReferencia.FlatAppearance.BorderSize = 0;
-            this.iconButtonClientes_EliminarReferencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonClientes_EliminarReferencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonClientes_EliminarReferencia.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonClientes_EliminarReferencia.ForeColor = System.Drawing.Color.White;
-            this.iconButtonClientes_EliminarReferencia.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.iconButtonClientes_EliminarReferencia.IconColor = System.Drawing.Color.White;
-            this.iconButtonClientes_EliminarReferencia.IconSize = 30;
-            this.iconButtonClientes_EliminarReferencia.Location = new System.Drawing.Point(133, 207);
-            this.iconButtonClientes_EliminarReferencia.Name = "iconButtonClientes_EliminarReferencia";
-            this.iconButtonClientes_EliminarReferencia.Rotation = 0D;
-            this.iconButtonClientes_EliminarReferencia.Size = new System.Drawing.Size(122, 30);
-            this.iconButtonClientes_EliminarReferencia.TabIndex = 50;
-            this.iconButtonClientes_EliminarReferencia.Text = "Eliminar";
-            this.iconButtonClientes_EliminarReferencia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonClientes_EliminarReferencia.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonClientes_EliminarReferencia.UseVisualStyleBackColor = false;
-            this.iconButtonClientes_EliminarReferencia.Click += new System.EventHandler(this.iconButtonClientes_EliminarReferencia_Click);
-            // 
             // dataGridViewClientes_Referencias
             // 
             this.dataGridViewClientes_Referencias.AllowUserToAddRows = false;
@@ -2918,30 +2286,6 @@
             this.dataGridViewClientes_Referencias.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewClientes_Referencias_CellClick);
             this.dataGridViewClientes_Referencias.DoubleClick += new System.EventHandler(this.dataGridViewClientes_Referencias_DoubleClick);
             this.dataGridViewClientes_Referencias.KeyUp += new System.Windows.Forms.KeyEventHandler(this.dataGridViewClientes_Referencias_KeyUp);
-            // 
-            // iconButtonClientes_AgregarReferencia
-            // 
-            this.iconButtonClientes_AgregarReferencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconButtonClientes_AgregarReferencia.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.iconButtonClientes_AgregarReferencia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonClientes_AgregarReferencia.FlatAppearance.BorderSize = 0;
-            this.iconButtonClientes_AgregarReferencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonClientes_AgregarReferencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonClientes_AgregarReferencia.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonClientes_AgregarReferencia.ForeColor = System.Drawing.Color.White;
-            this.iconButtonClientes_AgregarReferencia.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.iconButtonClientes_AgregarReferencia.IconColor = System.Drawing.Color.White;
-            this.iconButtonClientes_AgregarReferencia.IconSize = 30;
-            this.iconButtonClientes_AgregarReferencia.Location = new System.Drawing.Point(9, 207);
-            this.iconButtonClientes_AgregarReferencia.Name = "iconButtonClientes_AgregarReferencia";
-            this.iconButtonClientes_AgregarReferencia.Rotation = 0D;
-            this.iconButtonClientes_AgregarReferencia.Size = new System.Drawing.Size(122, 30);
-            this.iconButtonClientes_AgregarReferencia.TabIndex = 4;
-            this.iconButtonClientes_AgregarReferencia.Text = "Agregar";
-            this.iconButtonClientes_AgregarReferencia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonClientes_AgregarReferencia.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonClientes_AgregarReferencia.UseVisualStyleBackColor = false;
-            this.iconButtonClientes_AgregarReferencia.Click += new System.EventHandler(this.iconButtonClientes_AgregarReferencia_Click);
             // 
             // textBoxClientes_CelularReferencias
             // 
@@ -3081,101 +2425,6 @@
             this.checkBoxClientes_VerInactivos.Text = "Ver Empleados Inactivos";
             this.checkBoxClientes_VerInactivos.UseVisualStyleBackColor = true;
             // 
-            // iconButtonClientes_Cancelar
-            // 
-            this.iconButtonClientes_Cancelar.BackColor = System.Drawing.Color.Crimson;
-            this.iconButtonClientes_Cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonClientes_Cancelar.FlatAppearance.BorderSize = 0;
-            this.iconButtonClientes_Cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonClientes_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonClientes_Cancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonClientes_Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonClientes_Cancelar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Cancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
-            this.iconButtonClientes_Cancelar.IconColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Cancelar.IconSize = 30;
-            this.iconButtonClientes_Cancelar.Location = new System.Drawing.Point(228, 6);
-            this.iconButtonClientes_Cancelar.Name = "iconButtonClientes_Cancelar";
-            this.iconButtonClientes_Cancelar.Rotation = 0D;
-            this.iconButtonClientes_Cancelar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonClientes_Cancelar.TabIndex = 11;
-            this.iconButtonClientes_Cancelar.Text = "Cancelar";
-            this.iconButtonClientes_Cancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonClientes_Cancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonClientes_Cancelar.UseVisualStyleBackColor = false;
-            this.iconButtonClientes_Cancelar.Click += new System.EventHandler(this.iconButtonClientes_Cancelar_Click);
-            // 
-            // iconButtonClientes_Editar
-            // 
-            this.iconButtonClientes_Editar.BackColor = System.Drawing.Color.Orange;
-            this.iconButtonClientes_Editar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonClientes_Editar.FlatAppearance.BorderSize = 0;
-            this.iconButtonClientes_Editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonClientes_Editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonClientes_Editar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonClientes_Editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonClientes_Editar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Editar.IconChar = FontAwesome.Sharp.IconChar.Edit;
-            this.iconButtonClientes_Editar.IconColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Editar.IconSize = 30;
-            this.iconButtonClientes_Editar.Location = new System.Drawing.Point(116, 6);
-            this.iconButtonClientes_Editar.Name = "iconButtonClientes_Editar";
-            this.iconButtonClientes_Editar.Rotation = 0D;
-            this.iconButtonClientes_Editar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonClientes_Editar.TabIndex = 12;
-            this.iconButtonClientes_Editar.Text = "Editar";
-            this.iconButtonClientes_Editar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonClientes_Editar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonClientes_Editar.UseVisualStyleBackColor = false;
-            this.iconButtonClientes_Editar.Click += new System.EventHandler(this.iconButtonClientes_Editar_Click);
-            // 
-            // iconButtonClientes_Guardar
-            // 
-            this.iconButtonClientes_Guardar.BackColor = System.Drawing.Color.Green;
-            this.iconButtonClientes_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonClientes_Guardar.FlatAppearance.BorderSize = 0;
-            this.iconButtonClientes_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonClientes_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonClientes_Guardar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonClientes_Guardar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Guardar.IconChar = FontAwesome.Sharp.IconChar.Save;
-            this.iconButtonClientes_Guardar.IconColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Guardar.IconSize = 30;
-            this.iconButtonClientes_Guardar.Location = new System.Drawing.Point(339, 6);
-            this.iconButtonClientes_Guardar.Name = "iconButtonClientes_Guardar";
-            this.iconButtonClientes_Guardar.Rotation = 0D;
-            this.iconButtonClientes_Guardar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonClientes_Guardar.TabIndex = 10;
-            this.iconButtonClientes_Guardar.Text = "Guardar";
-            this.iconButtonClientes_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonClientes_Guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonClientes_Guardar.UseVisualStyleBackColor = false;
-            this.iconButtonClientes_Guardar.Click += new System.EventHandler(this.iconButtonClientes_Guardar_Click);
-            // 
-            // iconButtonClientes_Nuevo
-            // 
-            this.iconButtonClientes_Nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(102)))), ((int)(((byte)(240)))));
-            this.iconButtonClientes_Nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonClientes_Nuevo.FlatAppearance.BorderSize = 0;
-            this.iconButtonClientes_Nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonClientes_Nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonClientes_Nuevo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonClientes_Nuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonClientes_Nuevo.ForeColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Nuevo.IconChar = FontAwesome.Sharp.IconChar.File;
-            this.iconButtonClientes_Nuevo.IconColor = System.Drawing.Color.White;
-            this.iconButtonClientes_Nuevo.IconSize = 30;
-            this.iconButtonClientes_Nuevo.Location = new System.Drawing.Point(4, 6);
-            this.iconButtonClientes_Nuevo.Name = "iconButtonClientes_Nuevo";
-            this.iconButtonClientes_Nuevo.Rotation = 0D;
-            this.iconButtonClientes_Nuevo.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonClientes_Nuevo.TabIndex = 13;
-            this.iconButtonClientes_Nuevo.Text = "Nuevo";
-            this.iconButtonClientes_Nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonClientes_Nuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonClientes_Nuevo.UseVisualStyleBackColor = false;
-            this.iconButtonClientes_Nuevo.Click += new System.EventHandler(this.iconButtonClientes_Nuevo_Click);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBoxClientes_Buscar);
@@ -3271,6 +2520,24 @@
             this.panel7.Size = new System.Drawing.Size(341, 565);
             this.panel7.TabIndex = 30;
             // 
+            // panel11
+            // 
+            this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.panel11.CausesValidation = false;
+            this.panel11.Controls.Add(this.pictureBox1);
+            this.panel11.Controls.Add(this.textBoxFecha);
+            this.panel11.Controls.Add(this.label2);
+            this.panel11.Controls.Add(this.textBoxHora);
+            this.panel11.Controls.Add(this.label39);
+            this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel11.ForeColor = System.Drawing.Color.White;
+            this.panel11.Location = new System.Drawing.Point(3, 14);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(335, 548);
+            this.panel11.TabIndex = 34;
+            // 
             // textBoxFecha
             // 
             this.textBoxFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -3285,6 +2552,18 @@
             this.textBoxFecha.TabIndex = 24;
             this.textBoxFecha.Text = "--/--/--";
             this.textBoxFecha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Techno Hideo", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(5, 359);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(326, 12);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Software Para Tu Solucion";
             // 
             // textBoxHora
             // 
@@ -3313,29 +2592,6 @@
             this.label39.TabIndex = 22;
             this.label39.Text = "Sistema De Prestamos";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::Presentacion.Properties.Resources.Logo_SolucSoftw_PNG;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 131);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(303, 213);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Techno Hideo", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(5, 359);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(326, 12);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Software Para Tu Solucion";
-            // 
             // panelinicio
             // 
             this.panelinicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(102)))), ((int)(((byte)(240)))));
@@ -3361,6 +2617,63 @@
             this.panelinicio.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.panelinicio.Size = new System.Drawing.Size(935, 565);
             this.panelinicio.TabIndex = 19;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(64, 523);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(35, 16);
+            this.label54.TabIndex = 48;
+            this.label54.Text = "Tot.";
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.panel13.CausesValidation = false;
+            this.panel13.Controls.Add(this.label53);
+            this.panel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel13.Location = new System.Drawing.Point(788, 53);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(140, 110);
+            this.panel13.TabIndex = 46;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.White;
+            this.label53.Location = new System.Drawing.Point(1, 51);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(142, 32);
+            this.label53.TabIndex = 35;
+            this.label53.Text = "Reporte De Cobros\r\nDiario ";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.panel12.CausesValidation = false;
+            this.panel12.Controls.Add(this.label52);
+            this.panel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel12.Location = new System.Drawing.Point(631, 53);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(140, 110);
+            this.panel12.TabIndex = 44;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.White;
+            this.label52.Location = new System.Drawing.Point(7, 51);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(118, 16);
+            this.label52.TabIndex = 35;
+            this.label52.Text = "Capital Vencido";
+            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // chartReportes_FormaPago
             // 
@@ -3480,56 +2793,6 @@
             title3.Text = "Préstamos Desembolsados Por Mes. ";
             this.chartReportes_PrestamosPorMes.Titles.Add(title3);
             // 
-            // iconButtonIncio_CapitalInvertido
-            // 
-            this.iconButtonIncio_CapitalInvertido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_CapitalInvertido.Cursor = System.Windows.Forms.Cursors.Default;
-            this.iconButtonIncio_CapitalInvertido.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
-            this.iconButtonIncio_CapitalInvertido.FlatAppearance.BorderSize = 3;
-            this.iconButtonIncio_CapitalInvertido.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_CapitalInvertido.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_CapitalInvertido.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SlateBlue;
-            this.iconButtonIncio_CapitalInvertido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonIncio_CapitalInvertido.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonIncio_CapitalInvertido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonIncio_CapitalInvertido.ForeColor = System.Drawing.Color.White;
-            this.iconButtonIncio_CapitalInvertido.IconChar = FontAwesome.Sharp.IconChar.MoneyBillAlt;
-            this.iconButtonIncio_CapitalInvertido.IconColor = System.Drawing.Color.White;
-            this.iconButtonIncio_CapitalInvertido.IconSize = 30;
-            this.iconButtonIncio_CapitalInvertido.Location = new System.Drawing.Point(489, 14);
-            this.iconButtonIncio_CapitalInvertido.Name = "iconButtonIncio_CapitalInvertido";
-            this.iconButtonIncio_CapitalInvertido.Rotation = 0D;
-            this.iconButtonIncio_CapitalInvertido.Size = new System.Drawing.Size(115, 65);
-            this.iconButtonIncio_CapitalInvertido.TabIndex = 34;
-            this.iconButtonIncio_CapitalInvertido.Text = "0";
-            this.iconButtonIncio_CapitalInvertido.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButtonIncio_CapitalInvertido.UseVisualStyleBackColor = false;
-            // 
-            // iconButtonIncio_NoSolicitudes
-            // 
-            this.iconButtonIncio_NoSolicitudes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoSolicitudes.Cursor = System.Windows.Forms.Cursors.Default;
-            this.iconButtonIncio_NoSolicitudes.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.iconButtonIncio_NoSolicitudes.FlatAppearance.BorderSize = 3;
-            this.iconButtonIncio_NoSolicitudes.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoSolicitudes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoSolicitudes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.iconButtonIncio_NoSolicitudes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonIncio_NoSolicitudes.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonIncio_NoSolicitudes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonIncio_NoSolicitudes.ForeColor = System.Drawing.Color.White;
-            this.iconButtonIncio_NoSolicitudes.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.iconButtonIncio_NoSolicitudes.IconColor = System.Drawing.Color.White;
-            this.iconButtonIncio_NoSolicitudes.IconSize = 30;
-            this.iconButtonIncio_NoSolicitudes.Location = new System.Drawing.Point(25, 14);
-            this.iconButtonIncio_NoSolicitudes.Name = "iconButtonIncio_NoSolicitudes";
-            this.iconButtonIncio_NoSolicitudes.Rotation = 0D;
-            this.iconButtonIncio_NoSolicitudes.Size = new System.Drawing.Size(115, 65);
-            this.iconButtonIncio_NoSolicitudes.TabIndex = 32;
-            this.iconButtonIncio_NoSolicitudes.Text = "0";
-            this.iconButtonIncio_NoSolicitudes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButtonIncio_NoSolicitudes.UseVisualStyleBackColor = false;
-            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
@@ -3552,56 +2815,6 @@
             this.label51.TabIndex = 35;
             this.label51.Text = "Capital Invertido ";
             this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // iconButtonIncio_NoCuotasV
-            // 
-            this.iconButtonIncio_NoCuotasV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoCuotasV.Cursor = System.Windows.Forms.Cursors.Default;
-            this.iconButtonIncio_NoCuotasV.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.iconButtonIncio_NoCuotasV.FlatAppearance.BorderSize = 3;
-            this.iconButtonIncio_NoCuotasV.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoCuotasV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoCuotasV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.iconButtonIncio_NoCuotasV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonIncio_NoCuotasV.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonIncio_NoCuotasV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonIncio_NoCuotasV.ForeColor = System.Drawing.Color.White;
-            this.iconButtonIncio_NoCuotasV.IconChar = FontAwesome.Sharp.IconChar.FileInvoiceDollar;
-            this.iconButtonIncio_NoCuotasV.IconColor = System.Drawing.Color.White;
-            this.iconButtonIncio_NoCuotasV.IconSize = 30;
-            this.iconButtonIncio_NoCuotasV.Location = new System.Drawing.Point(332, 14);
-            this.iconButtonIncio_NoCuotasV.Name = "iconButtonIncio_NoCuotasV";
-            this.iconButtonIncio_NoCuotasV.Rotation = 0D;
-            this.iconButtonIncio_NoCuotasV.Size = new System.Drawing.Size(115, 65);
-            this.iconButtonIncio_NoCuotasV.TabIndex = 32;
-            this.iconButtonIncio_NoCuotasV.Text = "0";
-            this.iconButtonIncio_NoCuotasV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButtonIncio_NoCuotasV.UseVisualStyleBackColor = false;
-            // 
-            // iconButtonIncio_NoPrest
-            // 
-            this.iconButtonIncio_NoPrest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoPrest.Cursor = System.Windows.Forms.Cursors.Default;
-            this.iconButtonIncio_NoPrest.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.iconButtonIncio_NoPrest.FlatAppearance.BorderSize = 3;
-            this.iconButtonIncio_NoPrest.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoPrest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_NoPrest.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.iconButtonIncio_NoPrest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonIncio_NoPrest.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonIncio_NoPrest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonIncio_NoPrest.ForeColor = System.Drawing.Color.White;
-            this.iconButtonIncio_NoPrest.IconChar = FontAwesome.Sharp.IconChar.FileAlt;
-            this.iconButtonIncio_NoPrest.IconColor = System.Drawing.Color.White;
-            this.iconButtonIncio_NoPrest.IconSize = 30;
-            this.iconButtonIncio_NoPrest.Location = new System.Drawing.Point(176, 14);
-            this.iconButtonIncio_NoPrest.Name = "iconButtonIncio_NoPrest";
-            this.iconButtonIncio_NoPrest.Rotation = 0D;
-            this.iconButtonIncio_NoPrest.Size = new System.Drawing.Size(115, 65);
-            this.iconButtonIncio_NoPrest.TabIndex = 32;
-            this.iconButtonIncio_NoPrest.Text = "0";
-            this.iconButtonIncio_NoPrest.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButtonIncio_NoPrest.UseVisualStyleBackColor = false;
             // 
             // panel6
             // 
@@ -3671,7 +2884,8 @@
             // 
             // tabPage_Cobros
             // 
-            this.tabPage_Cobros.Controls.Add(this.panel9);
+            this.tabPage_Cobros.Controls.Add(this.groupBoxCobro_DistribucionPago);
+            this.tabPage_Cobros.Controls.Add(this.groupBox19);
             this.tabPage_Cobros.Controls.Add(this.panel8);
             this.tabPage_Cobros.Controls.Add(this.groupBox10);
             this.tabPage_Cobros.Location = new System.Drawing.Point(4, 4);
@@ -3680,138 +2894,25 @@
             this.tabPage_Cobros.TabIndex = 4;
             this.tabPage_Cobros.UseVisualStyleBackColor = true;
             // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.groupBox19);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(889, 40);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(387, 525);
-            this.panel9.TabIndex = 11;
-            // 
-            // groupBox19
-            // 
-            this.groupBox19.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.groupBox19.Controls.Add(this.iconButtonCobrosFiltrarCobros);
-            this.groupBox19.Controls.Add(this.dtpCobrosHasta);
-            this.groupBox19.Controls.Add(this.dtpCobrosDesde);
-            this.groupBox19.Controls.Add(this.label50);
-            this.groupBox19.Controls.Add(this.label49);
-            this.groupBox19.Controls.Add(this.dataGridViewCobros_FiltroCobros);
-            this.groupBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox19.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.groupBox19.Location = new System.Drawing.Point(5, 8);
-            this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(375, 525);
-            this.groupBox19.TabIndex = 12;
-            this.groupBox19.TabStop = false;
-            this.groupBox19.Text = "Resumen De Cobros";
-            // 
-            // iconButtonCobrosFiltrarCobros
-            // 
-            this.iconButtonCobrosFiltrarCobros.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonCobrosFiltrarCobros.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.iconButtonCobrosFiltrarCobros.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonCobrosFiltrarCobros.FlatAppearance.BorderSize = 0;
-            this.iconButtonCobrosFiltrarCobros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonCobrosFiltrarCobros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonCobrosFiltrarCobros.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonCobrosFiltrarCobros.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonCobrosFiltrarCobros.ForeColor = System.Drawing.Color.White;
-            this.iconButtonCobrosFiltrarCobros.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
-            this.iconButtonCobrosFiltrarCobros.IconColor = System.Drawing.Color.White;
-            this.iconButtonCobrosFiltrarCobros.IconSize = 25;
-            this.iconButtonCobrosFiltrarCobros.Location = new System.Drawing.Point(320, 16);
-            this.iconButtonCobrosFiltrarCobros.Name = "iconButtonCobrosFiltrarCobros";
-            this.iconButtonCobrosFiltrarCobros.Rotation = 0D;
-            this.iconButtonCobrosFiltrarCobros.Size = new System.Drawing.Size(40, 27);
-            this.iconButtonCobrosFiltrarCobros.TabIndex = 61;
-            this.iconButtonCobrosFiltrarCobros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonCobrosFiltrarCobros.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonCobrosFiltrarCobros.UseVisualStyleBackColor = false;
-            // 
-            // dtpCobrosHasta
-            // 
-            this.dtpCobrosHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpCobrosHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpCobrosHasta.Location = new System.Drawing.Point(208, 18);
-            this.dtpCobrosHasta.Name = "dtpCobrosHasta";
-            this.dtpCobrosHasta.Size = new System.Drawing.Size(103, 22);
-            this.dtpCobrosHasta.TabIndex = 40;
-            // 
-            // dtpCobrosDesde
-            // 
-            this.dtpCobrosDesde.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpCobrosDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpCobrosDesde.Location = new System.Drawing.Point(60, 21);
-            this.dtpCobrosDesde.Name = "dtpCobrosDesde";
-            this.dtpCobrosDesde.Size = new System.Drawing.Size(103, 22);
-            this.dtpCobrosDesde.TabIndex = 39;
-            // 
-            // label50
-            // 
-            this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.label50.Location = new System.Drawing.Point(172, 21);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(37, 16);
-            this.label50.TabIndex = 38;
-            this.label50.Text = "Hata";
-            // 
-            // label49
-            // 
-            this.label49.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.label49.Location = new System.Drawing.Point(11, 21);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(49, 16);
-            this.label49.TabIndex = 37;
-            this.label49.Text = "Desde";
-            // 
-            // dataGridViewCobros_FiltroCobros
-            // 
-            this.dataGridViewCobros_FiltroCobros.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridViewCobros_FiltroCobros.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridViewCobros_FiltroCobros.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridViewCobros_FiltroCobros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCobros_FiltroCobros.Location = new System.Drawing.Point(14, 49);
-            this.dataGridViewCobros_FiltroCobros.Name = "dataGridViewCobros_FiltroCobros";
-            this.dataGridViewCobros_FiltroCobros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewCobros_FiltroCobros.Size = new System.Drawing.Size(349, 458);
-            this.dataGridViewCobros_FiltroCobros.TabIndex = 3;
-            // 
             // panel8
             // 
             this.panel8.Controls.Add(this.groupBox18);
             this.panel8.Controls.Add(this.groupBox17);
             this.panel8.Controls.Add(this.groupBox16);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel8.Location = new System.Drawing.Point(0, 40);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(889, 525);
+            this.panel8.Size = new System.Drawing.Size(879, 525);
             this.panel8.TabIndex = 10;
             // 
             // groupBox18
             // 
-            this.groupBox18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox18.Controls.Add(this.dataGridViewCobrosReportePrestamo);
+            this.groupBox18.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.groupBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox18.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.groupBox18.Location = new System.Drawing.Point(4, 226);
+            this.groupBox18.Location = new System.Drawing.Point(0, 229);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(881, 296);
+            this.groupBox18.Size = new System.Drawing.Size(879, 296);
             this.groupBox18.TabIndex = 11;
             this.groupBox18.TabStop = false;
             // 
@@ -3825,7 +2926,7 @@
             this.dataGridViewCobrosReportePrestamo.Location = new System.Drawing.Point(3, 18);
             this.dataGridViewCobrosReportePrestamo.Name = "dataGridViewCobrosReportePrestamo";
             this.dataGridViewCobrosReportePrestamo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewCobrosReportePrestamo.Size = new System.Drawing.Size(875, 275);
+            this.dataGridViewCobrosReportePrestamo.Size = new System.Drawing.Size(873, 275);
             this.dataGridViewCobrosReportePrestamo.TabIndex = 4;
             // 
             // groupBox17
@@ -3849,9 +2950,9 @@
             this.groupBox17.Controls.Add(this.label43);
             this.groupBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox17.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.groupBox17.Location = new System.Drawing.Point(406, 6);
+            this.groupBox17.Location = new System.Drawing.Point(401, 6);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(479, 214);
+            this.groupBox17.Size = new System.Drawing.Size(475, 214);
             this.groupBox17.TabIndex = 10;
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "Cobro";
@@ -3865,10 +2966,10 @@
             this.txtCobrosPagoCon.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCobrosPagoCon.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtCobrosPagoCon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCobrosPagoCon.Location = new System.Drawing.Point(228, 138);
+            this.txtCobrosPagoCon.Location = new System.Drawing.Point(228, 136);
             this.txtCobrosPagoCon.MaxLength = 50;
             this.txtCobrosPagoCon.Name = "txtCobrosPagoCon";
-            this.txtCobrosPagoCon.Size = new System.Drawing.Size(115, 17);
+            this.txtCobrosPagoCon.Size = new System.Drawing.Size(111, 17);
             this.txtCobrosPagoCon.TabIndex = 72;
             this.txtCobrosPagoCon.Text = "0";
             this.txtCobrosPagoCon.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -3883,58 +2984,11 @@
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.label48.Location = new System.Drawing.Point(228, 119);
+            this.label48.Location = new System.Drawing.Point(228, 115);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(71, 16);
             this.label48.TabIndex = 73;
             this.label48.Text = "Pagó Con:";
-            // 
-            // iconButtonCobrosCancelar
-            // 
-            this.iconButtonCobrosCancelar.BackColor = System.Drawing.Color.Crimson;
-            this.iconButtonCobrosCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonCobrosCancelar.FlatAppearance.BorderSize = 0;
-            this.iconButtonCobrosCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonCobrosCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonCobrosCancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonCobrosCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonCobrosCancelar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonCobrosCancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
-            this.iconButtonCobrosCancelar.IconColor = System.Drawing.Color.White;
-            this.iconButtonCobrosCancelar.IconSize = 30;
-            this.iconButtonCobrosCancelar.Location = new System.Drawing.Point(56, 164);
-            this.iconButtonCobrosCancelar.Name = "iconButtonCobrosCancelar";
-            this.iconButtonCobrosCancelar.Rotation = 0D;
-            this.iconButtonCobrosCancelar.Size = new System.Drawing.Size(160, 40);
-            this.iconButtonCobrosCancelar.TabIndex = 71;
-            this.iconButtonCobrosCancelar.Text = "Cancelar";
-            this.iconButtonCobrosCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonCobrosCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonCobrosCancelar.UseVisualStyleBackColor = false;
-            this.iconButtonCobrosCancelar.Click += new System.EventHandler(this.iconButtonCobrosCancelar_Click);
-            // 
-            // iconButtonCobrosAplicarValores
-            // 
-            this.iconButtonCobrosAplicarValores.BackColor = System.Drawing.Color.Green;
-            this.iconButtonCobrosAplicarValores.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonCobrosAplicarValores.FlatAppearance.BorderSize = 0;
-            this.iconButtonCobrosAplicarValores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonCobrosAplicarValores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonCobrosAplicarValores.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonCobrosAplicarValores.ForeColor = System.Drawing.Color.White;
-            this.iconButtonCobrosAplicarValores.IconChar = FontAwesome.Sharp.IconChar.Save;
-            this.iconButtonCobrosAplicarValores.IconColor = System.Drawing.Color.White;
-            this.iconButtonCobrosAplicarValores.IconSize = 30;
-            this.iconButtonCobrosAplicarValores.Location = new System.Drawing.Point(305, 164);
-            this.iconButtonCobrosAplicarValores.Name = "iconButtonCobrosAplicarValores";
-            this.iconButtonCobrosAplicarValores.Rotation = 0D;
-            this.iconButtonCobrosAplicarValores.Size = new System.Drawing.Size(160, 40);
-            this.iconButtonCobrosAplicarValores.TabIndex = 70;
-            this.iconButtonCobrosAplicarValores.Text = "Aplicar Valores";
-            this.iconButtonCobrosAplicarValores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonCobrosAplicarValores.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonCobrosAplicarValores.UseVisualStyleBackColor = false;
-            this.iconButtonCobrosAplicarValores.Click += new System.EventHandler(this.iconButtonCobros_AplicarValores_Click);
             // 
             // txtCobrosDevuelta
             // 
@@ -3945,10 +2999,10 @@
             this.txtCobrosDevuelta.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCobrosDevuelta.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtCobrosDevuelta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCobrosDevuelta.Location = new System.Drawing.Point(350, 138);
+            this.txtCobrosDevuelta.Location = new System.Drawing.Point(350, 136);
             this.txtCobrosDevuelta.MaxLength = 50;
             this.txtCobrosDevuelta.Name = "txtCobrosDevuelta";
-            this.txtCobrosDevuelta.Size = new System.Drawing.Size(115, 17);
+            this.txtCobrosDevuelta.Size = new System.Drawing.Size(111, 17);
             this.txtCobrosDevuelta.TabIndex = 68;
             this.txtCobrosDevuelta.Text = "0";
             this.txtCobrosDevuelta.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -3963,7 +3017,7 @@
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.label47.Location = new System.Drawing.Point(350, 120);
+            this.label47.Location = new System.Drawing.Point(350, 115);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(62, 16);
             this.label47.TabIndex = 69;
@@ -3979,7 +3033,7 @@
             this.txtCobrosConcepto.Location = new System.Drawing.Point(228, 87);
             this.txtCobrosConcepto.MaxLength = 50;
             this.txtCobrosConcepto.Name = "txtCobrosConcepto";
-            this.txtCobrosConcepto.Size = new System.Drawing.Size(237, 22);
+            this.txtCobrosConcepto.Size = new System.Drawing.Size(233, 22);
             this.txtCobrosConcepto.TabIndex = 66;
             // 
             // label46
@@ -4006,7 +3060,7 @@
             this.txtCobrosMontoAPagar.Location = new System.Drawing.Point(228, 43);
             this.txtCobrosMontoAPagar.MaxLength = 50;
             this.txtCobrosMontoAPagar.Name = "txtCobrosMontoAPagar";
-            this.txtCobrosMontoAPagar.Size = new System.Drawing.Size(237, 22);
+            this.txtCobrosMontoAPagar.Size = new System.Drawing.Size(233, 22);
             this.txtCobrosMontoAPagar.TabIndex = 64;
             this.txtCobrosMontoAPagar.Text = "0";
             this.txtCobrosMontoAPagar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -4040,6 +3094,7 @@
             this.comboBoxCobrosDistribucionPago.Name = "comboBoxCobrosDistribucionPago";
             this.comboBoxCobrosDistribucionPago.Size = new System.Drawing.Size(209, 24);
             this.comboBoxCobrosDistribucionPago.TabIndex = 63;
+            this.comboBoxCobrosDistribucionPago.SelectedIndexChanged += new System.EventHandler(this.comboBoxCobrosDistribucionPago_SelectedIndexChanged);
             // 
             // label45
             // 
@@ -4095,7 +3150,7 @@
             this.txtCobrosTotalDeAtraso.Location = new System.Drawing.Point(7, 136);
             this.txtCobrosTotalDeAtraso.MaxLength = 50;
             this.txtCobrosTotalDeAtraso.Name = "txtCobrosTotalDeAtraso";
-            this.txtCobrosTotalDeAtraso.Size = new System.Drawing.Size(209, 17);
+            this.txtCobrosTotalDeAtraso.Size = new System.Drawing.Size(205, 17);
             this.txtCobrosTotalDeAtraso.TabIndex = 32;
             this.txtCobrosTotalDeAtraso.Text = "0";
             this.txtCobrosTotalDeAtraso.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -4110,7 +3165,7 @@
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.label43.Location = new System.Drawing.Point(7, 116);
+            this.label43.Location = new System.Drawing.Point(7, 115);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(102, 16);
             this.label43.TabIndex = 34;
@@ -4129,7 +3184,7 @@
             this.groupBox16.Controls.Add(this.label37);
             this.groupBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox16.ForeColor = System.Drawing.Color.LightSlateGray;
-            this.groupBox16.Location = new System.Drawing.Point(4, 6);
+            this.groupBox16.Location = new System.Drawing.Point(-1, 6);
             this.groupBox16.Name = "groupBox16";
             this.groupBox16.Size = new System.Drawing.Size(396, 214);
             this.groupBox16.TabIndex = 9;
@@ -4163,52 +3218,6 @@
             this.label40.Size = new System.Drawing.Size(96, 16);
             this.label40.TabIndex = 63;
             this.label40.Text = "Código Cliente";
-            // 
-            // iconButtonCobrosVerSolicitud
-            // 
-            this.iconButtonCobrosVerSolicitud.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(15)))), ((int)(((byte)(80)))));
-            this.iconButtonCobrosVerSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonCobrosVerSolicitud.FlatAppearance.BorderSize = 0;
-            this.iconButtonCobrosVerSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonCobrosVerSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonCobrosVerSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonCobrosVerSolicitud.ForeColor = System.Drawing.Color.White;
-            this.iconButtonCobrosVerSolicitud.IconChar = FontAwesome.Sharp.IconChar.Elementor;
-            this.iconButtonCobrosVerSolicitud.IconColor = System.Drawing.Color.White;
-            this.iconButtonCobrosVerSolicitud.IconSize = 30;
-            this.iconButtonCobrosVerSolicitud.Location = new System.Drawing.Point(6, 170);
-            this.iconButtonCobrosVerSolicitud.Name = "iconButtonCobrosVerSolicitud";
-            this.iconButtonCobrosVerSolicitud.Rotation = 0D;
-            this.iconButtonCobrosVerSolicitud.Size = new System.Drawing.Size(149, 38);
-            this.iconButtonCobrosVerSolicitud.TabIndex = 61;
-            this.iconButtonCobrosVerSolicitud.Text = "Ver Solicitud";
-            this.iconButtonCobrosVerSolicitud.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonCobrosVerSolicitud.UseVisualStyleBackColor = false;
-            this.iconButtonCobrosVerSolicitud.Click += new System.EventHandler(this.iconButtonCobros_VerSolicitud_Click);
-            // 
-            // iconButtonCobrosBuscarCliente
-            // 
-            this.iconButtonCobrosBuscarCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.iconButtonCobrosBuscarCliente.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.iconButtonCobrosBuscarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonCobrosBuscarCliente.FlatAppearance.BorderSize = 0;
-            this.iconButtonCobrosBuscarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonCobrosBuscarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonCobrosBuscarCliente.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonCobrosBuscarCliente.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonCobrosBuscarCliente.ForeColor = System.Drawing.Color.White;
-            this.iconButtonCobrosBuscarCliente.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
-            this.iconButtonCobrosBuscarCliente.IconColor = System.Drawing.Color.White;
-            this.iconButtonCobrosBuscarCliente.IconSize = 25;
-            this.iconButtonCobrosBuscarCliente.Location = new System.Drawing.Point(161, 43);
-            this.iconButtonCobrosBuscarCliente.Name = "iconButtonCobrosBuscarCliente";
-            this.iconButtonCobrosBuscarCliente.Rotation = 0D;
-            this.iconButtonCobrosBuscarCliente.Size = new System.Drawing.Size(45, 27);
-            this.iconButtonCobrosBuscarCliente.TabIndex = 60;
-            this.iconButtonCobrosBuscarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonCobrosBuscarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonCobrosBuscarCliente.UseVisualStyleBackColor = false;
-            this.iconButtonCobrosBuscarCliente.Click += new System.EventHandler(this.iconButtonCobros_BuscarCliente_Click);
             // 
             // txtCobrosCodigoPrestamo
             // 
@@ -4421,31 +3430,6 @@
             this.groupBox12.TabIndex = 2;
             this.groupBox12.TabStop = false;
             // 
-            // iconButtonLS_Cancelar
-            // 
-            this.iconButtonLS_Cancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconButtonLS_Cancelar.BackColor = System.Drawing.Color.Crimson;
-            this.iconButtonLS_Cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonLS_Cancelar.FlatAppearance.BorderSize = 0;
-            this.iconButtonLS_Cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonLS_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonLS_Cancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonLS_Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonLS_Cancelar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonLS_Cancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
-            this.iconButtonLS_Cancelar.IconColor = System.Drawing.Color.White;
-            this.iconButtonLS_Cancelar.IconSize = 30;
-            this.iconButtonLS_Cancelar.Location = new System.Drawing.Point(6, 460);
-            this.iconButtonLS_Cancelar.Name = "iconButtonLS_Cancelar";
-            this.iconButtonLS_Cancelar.Rotation = 0D;
-            this.iconButtonLS_Cancelar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonLS_Cancelar.TabIndex = 138;
-            this.iconButtonLS_Cancelar.Text = "Cancelar";
-            this.iconButtonLS_Cancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonLS_Cancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonLS_Cancelar.UseVisualStyleBackColor = false;
-            this.iconButtonLS_Cancelar.Click += new System.EventHandler(this.iconButtonLS_Cancelar_Click);
-            // 
             // label34
             // 
             this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -4589,30 +3573,6 @@
             this.label17.TabIndex = 130;
             this.label17.Text = "Estado Solicitud";
             // 
-            // iconButtonLS_Guardar
-            // 
-            this.iconButtonLS_Guardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconButtonLS_Guardar.BackColor = System.Drawing.Color.Green;
-            this.iconButtonLS_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonLS_Guardar.FlatAppearance.BorderSize = 0;
-            this.iconButtonLS_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
-            this.iconButtonLS_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonLS_Guardar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonLS_Guardar.ForeColor = System.Drawing.Color.White;
-            this.iconButtonLS_Guardar.IconChar = FontAwesome.Sharp.IconChar.Save;
-            this.iconButtonLS_Guardar.IconColor = System.Drawing.Color.White;
-            this.iconButtonLS_Guardar.IconSize = 30;
-            this.iconButtonLS_Guardar.Location = new System.Drawing.Point(118, 460);
-            this.iconButtonLS_Guardar.Name = "iconButtonLS_Guardar";
-            this.iconButtonLS_Guardar.Rotation = 0D;
-            this.iconButtonLS_Guardar.Size = new System.Drawing.Size(110, 40);
-            this.iconButtonLS_Guardar.TabIndex = 19;
-            this.iconButtonLS_Guardar.Text = "Guardar";
-            this.iconButtonLS_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButtonLS_Guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonLS_Guardar.UseVisualStyleBackColor = false;
-            this.iconButtonLS_Guardar.Click += new System.EventHandler(this.iconButtonLS_Guardar_Click);
-            // 
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.label16);
@@ -4664,26 +3624,6 @@
             this.groupBox14.Size = new System.Drawing.Size(1276, 46);
             this.groupBox14.TabIndex = 5;
             this.groupBox14.TabStop = false;
-            // 
-            // iconButtonReporte_Cerrar
-            // 
-            this.iconButtonReporte_Cerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButtonReporte_Cerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonReporte_Cerrar.FlatAppearance.BorderSize = 0;
-            this.iconButtonReporte_Cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonReporte_Cerrar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonReporte_Cerrar.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.iconButtonReporte_Cerrar.IconColor = System.Drawing.Color.Red;
-            this.iconButtonReporte_Cerrar.IconSize = 25;
-            this.iconButtonReporte_Cerrar.Location = new System.Drawing.Point(1128, 7);
-            this.iconButtonReporte_Cerrar.Name = "iconButtonReporte_Cerrar";
-            this.iconButtonReporte_Cerrar.Rotation = 0D;
-            this.iconButtonReporte_Cerrar.Size = new System.Drawing.Size(145, 32);
-            this.iconButtonReporte_Cerrar.TabIndex = 1;
-            this.iconButtonReporte_Cerrar.Text = "Cerrar Reporte";
-            this.iconButtonReporte_Cerrar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButtonReporte_Cerrar.UseVisualStyleBackColor = true;
-            this.iconButtonReporte_Cerrar.Click += new System.EventHandler(this.iconButtonReporte_Cerrar_Click);
             // 
             // label_TituloFormularioHijo
             // 
@@ -4774,75 +3714,94 @@
             this.ControlsContainer.Location = new System.Drawing.Point(0, 26);
             this.ControlsContainer.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.ControlsContainer.Name = "ControlsContainer";
-            this.ControlsContainer.Padding = new System.Windows.Forms.Padding(0);
             this.ControlsContainer.Size = new System.Drawing.Size(150, 174);
             this.ControlsContainer.TabIndex = 0;
             // 
-            // panel11
+            // dataGridViewCobros_FiltroCobros
             // 
-            this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewCobros_FiltroCobros.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.panel11.CausesValidation = false;
-            this.panel11.Controls.Add(this.pictureBox1);
-            this.panel11.Controls.Add(this.textBoxFecha);
-            this.panel11.Controls.Add(this.label2);
-            this.panel11.Controls.Add(this.textBoxHora);
-            this.panel11.Controls.Add(this.label39);
-            this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel11.ForeColor = System.Drawing.Color.White;
-            this.panel11.Location = new System.Drawing.Point(3, 14);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(335, 548);
-            this.panel11.TabIndex = 34;
+            this.dataGridViewCobros_FiltroCobros.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewCobros_FiltroCobros.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridViewCobros_FiltroCobros.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridViewCobros_FiltroCobros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewCobros_FiltroCobros.Location = new System.Drawing.Point(14, 52);
+            this.dataGridViewCobros_FiltroCobros.Name = "dataGridViewCobros_FiltroCobros";
+            this.dataGridViewCobros_FiltroCobros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewCobros_FiltroCobros.Size = new System.Drawing.Size(376, 97);
+            this.dataGridViewCobros_FiltroCobros.TabIndex = 3;
             // 
-            // iconButtonIncio_CapitalVencido
+            // label49
             // 
-            this.iconButtonIncio_CapitalVencido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_CapitalVencido.Cursor = System.Windows.Forms.Cursors.Default;
-            this.iconButtonIncio_CapitalVencido.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.iconButtonIncio_CapitalVencido.FlatAppearance.BorderSize = 3;
-            this.iconButtonIncio_CapitalVencido.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_CapitalVencido.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.iconButtonIncio_CapitalVencido.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.iconButtonIncio_CapitalVencido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonIncio_CapitalVencido.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonIncio_CapitalVencido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButtonIncio_CapitalVencido.ForeColor = System.Drawing.Color.White;
-            this.iconButtonIncio_CapitalVencido.IconChar = FontAwesome.Sharp.IconChar.Coins;
-            this.iconButtonIncio_CapitalVencido.IconColor = System.Drawing.Color.White;
-            this.iconButtonIncio_CapitalVencido.IconSize = 30;
-            this.iconButtonIncio_CapitalVencido.Location = new System.Drawing.Point(644, 14);
-            this.iconButtonIncio_CapitalVencido.Name = "iconButtonIncio_CapitalVencido";
-            this.iconButtonIncio_CapitalVencido.Rotation = 0D;
-            this.iconButtonIncio_CapitalVencido.Size = new System.Drawing.Size(115, 65);
-            this.iconButtonIncio_CapitalVencido.TabIndex = 45;
-            this.iconButtonIncio_CapitalVencido.Text = "0";
-            this.iconButtonIncio_CapitalVencido.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.iconButtonIncio_CapitalVencido.UseVisualStyleBackColor = false;
+            this.label49.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label49.Location = new System.Drawing.Point(3, 22);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(49, 16);
+            this.label49.TabIndex = 37;
+            this.label49.Text = "Desde";
             // 
-            // panel12
+            // label50
             // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.panel12.CausesValidation = false;
-            this.panel12.Controls.Add(this.label52);
-            this.panel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel12.Location = new System.Drawing.Point(631, 53);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(140, 110);
-            this.panel12.TabIndex = 44;
+            this.label50.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label50.Location = new System.Drawing.Point(175, 22);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(37, 16);
+            this.label50.TabIndex = 38;
+            this.label50.Text = "Hata";
             // 
-            // label52
+            // dtpCobrosDesde
             // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(7, 51);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(118, 16);
-            this.label52.TabIndex = 35;
-            this.label52.Text = "Capital Vencido";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dtpCobrosDesde.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dtpCobrosDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpCobrosDesde.Location = new System.Drawing.Point(52, 19);
+            this.dtpCobrosDesde.Name = "dtpCobrosDesde";
+            this.dtpCobrosDesde.Size = new System.Drawing.Size(119, 22);
+            this.dtpCobrosDesde.TabIndex = 39;
+            // 
+            // dtpCobrosHasta
+            // 
+            this.dtpCobrosHasta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dtpCobrosHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpCobrosHasta.Location = new System.Drawing.Point(217, 19);
+            this.dtpCobrosHasta.Name = "dtpCobrosHasta";
+            this.dtpCobrosHasta.Size = new System.Drawing.Size(119, 22);
+            this.dtpCobrosHasta.TabIndex = 40;
+            // 
+            // groupBox19
+            // 
+            this.groupBox19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox19.Controls.Add(this.iconButtonCobrosFiltrarCobros);
+            this.groupBox19.Controls.Add(this.dtpCobrosHasta);
+            this.groupBox19.Controls.Add(this.dtpCobrosDesde);
+            this.groupBox19.Controls.Add(this.label50);
+            this.groupBox19.Controls.Add(this.label49);
+            this.groupBox19.Controls.Add(this.dataGridViewCobros_FiltroCobros);
+            this.groupBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox19.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.groupBox19.Location = new System.Drawing.Point(882, 407);
+            this.groupBox19.Name = "groupBox19";
+            this.groupBox19.Size = new System.Drawing.Size(390, 155);
+            this.groupBox19.TabIndex = 12;
+            this.groupBox19.TabStop = false;
+            this.groupBox19.Text = "Resumen De Cobros";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = global::Presentacion.Properties.Resources.Logo_SolucSoftw_PNG;
+            this.pictureBox1.Location = new System.Drawing.Point(17, 131);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(303, 213);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // iconButtonIncio_ReporteCobros
             // 
@@ -4869,39 +3828,1504 @@
             this.iconButtonIncio_ReporteCobros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.iconButtonIncio_ReporteCobros.UseVisualStyleBackColor = false;
             // 
-            // panel13
+            // iconButtonIncio_CapitalVencido
             // 
-            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.panel13.CausesValidation = false;
-            this.panel13.Controls.Add(this.label53);
-            this.panel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel13.Location = new System.Drawing.Point(788, 53);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(140, 110);
-            this.panel13.TabIndex = 46;
+            this.iconButtonIncio_CapitalVencido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_CapitalVencido.Cursor = System.Windows.Forms.Cursors.Default;
+            this.iconButtonIncio_CapitalVencido.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.iconButtonIncio_CapitalVencido.FlatAppearance.BorderSize = 3;
+            this.iconButtonIncio_CapitalVencido.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_CapitalVencido.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_CapitalVencido.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.iconButtonIncio_CapitalVencido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonIncio_CapitalVencido.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonIncio_CapitalVencido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonIncio_CapitalVencido.ForeColor = System.Drawing.Color.White;
+            this.iconButtonIncio_CapitalVencido.IconChar = FontAwesome.Sharp.IconChar.Coins;
+            this.iconButtonIncio_CapitalVencido.IconColor = System.Drawing.Color.White;
+            this.iconButtonIncio_CapitalVencido.IconSize = 30;
+            this.iconButtonIncio_CapitalVencido.Location = new System.Drawing.Point(644, 14);
+            this.iconButtonIncio_CapitalVencido.Name = "iconButtonIncio_CapitalVencido";
+            this.iconButtonIncio_CapitalVencido.Rotation = 0D;
+            this.iconButtonIncio_CapitalVencido.Size = new System.Drawing.Size(115, 65);
+            this.iconButtonIncio_CapitalVencido.TabIndex = 45;
+            this.iconButtonIncio_CapitalVencido.Text = "0";
+            this.iconButtonIncio_CapitalVencido.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButtonIncio_CapitalVencido.UseVisualStyleBackColor = false;
             // 
-            // label53
+            // iconButtonIncio_CapitalInvertido
             // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.White;
-            this.label53.Location = new System.Drawing.Point(1, 51);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(142, 32);
-            this.label53.TabIndex = 35;
-            this.label53.Text = "Reporte De Cobros\r\nDiario ";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.iconButtonIncio_CapitalInvertido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_CapitalInvertido.Cursor = System.Windows.Forms.Cursors.Default;
+            this.iconButtonIncio_CapitalInvertido.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.iconButtonIncio_CapitalInvertido.FlatAppearance.BorderSize = 3;
+            this.iconButtonIncio_CapitalInvertido.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_CapitalInvertido.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_CapitalInvertido.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SlateBlue;
+            this.iconButtonIncio_CapitalInvertido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonIncio_CapitalInvertido.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonIncio_CapitalInvertido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonIncio_CapitalInvertido.ForeColor = System.Drawing.Color.White;
+            this.iconButtonIncio_CapitalInvertido.IconChar = FontAwesome.Sharp.IconChar.MoneyBillAlt;
+            this.iconButtonIncio_CapitalInvertido.IconColor = System.Drawing.Color.White;
+            this.iconButtonIncio_CapitalInvertido.IconSize = 30;
+            this.iconButtonIncio_CapitalInvertido.Location = new System.Drawing.Point(489, 14);
+            this.iconButtonIncio_CapitalInvertido.Name = "iconButtonIncio_CapitalInvertido";
+            this.iconButtonIncio_CapitalInvertido.Rotation = 0D;
+            this.iconButtonIncio_CapitalInvertido.Size = new System.Drawing.Size(115, 65);
+            this.iconButtonIncio_CapitalInvertido.TabIndex = 34;
+            this.iconButtonIncio_CapitalInvertido.Text = "0";
+            this.iconButtonIncio_CapitalInvertido.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButtonIncio_CapitalInvertido.UseVisualStyleBackColor = false;
             // 
-            // label54
+            // iconButtonIncio_NoSolicitudes
             // 
-            this.label54.AutoSize = true;
-            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(64, 523);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(35, 16);
-            this.label54.TabIndex = 48;
-            this.label54.Text = "Tot.";
+            this.iconButtonIncio_NoSolicitudes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoSolicitudes.Cursor = System.Windows.Forms.Cursors.Default;
+            this.iconButtonIncio_NoSolicitudes.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.iconButtonIncio_NoSolicitudes.FlatAppearance.BorderSize = 3;
+            this.iconButtonIncio_NoSolicitudes.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoSolicitudes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoSolicitudes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.iconButtonIncio_NoSolicitudes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonIncio_NoSolicitudes.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonIncio_NoSolicitudes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonIncio_NoSolicitudes.ForeColor = System.Drawing.Color.White;
+            this.iconButtonIncio_NoSolicitudes.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.iconButtonIncio_NoSolicitudes.IconColor = System.Drawing.Color.White;
+            this.iconButtonIncio_NoSolicitudes.IconSize = 30;
+            this.iconButtonIncio_NoSolicitudes.Location = new System.Drawing.Point(25, 14);
+            this.iconButtonIncio_NoSolicitudes.Name = "iconButtonIncio_NoSolicitudes";
+            this.iconButtonIncio_NoSolicitudes.Rotation = 0D;
+            this.iconButtonIncio_NoSolicitudes.Size = new System.Drawing.Size(115, 65);
+            this.iconButtonIncio_NoSolicitudes.TabIndex = 32;
+            this.iconButtonIncio_NoSolicitudes.Text = "0";
+            this.iconButtonIncio_NoSolicitudes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButtonIncio_NoSolicitudes.UseVisualStyleBackColor = false;
+            // 
+            // iconButtonIncio_NoCuotasV
+            // 
+            this.iconButtonIncio_NoCuotasV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoCuotasV.Cursor = System.Windows.Forms.Cursors.Default;
+            this.iconButtonIncio_NoCuotasV.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.iconButtonIncio_NoCuotasV.FlatAppearance.BorderSize = 3;
+            this.iconButtonIncio_NoCuotasV.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoCuotasV.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoCuotasV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.iconButtonIncio_NoCuotasV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonIncio_NoCuotasV.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonIncio_NoCuotasV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonIncio_NoCuotasV.ForeColor = System.Drawing.Color.White;
+            this.iconButtonIncio_NoCuotasV.IconChar = FontAwesome.Sharp.IconChar.FileInvoiceDollar;
+            this.iconButtonIncio_NoCuotasV.IconColor = System.Drawing.Color.White;
+            this.iconButtonIncio_NoCuotasV.IconSize = 30;
+            this.iconButtonIncio_NoCuotasV.Location = new System.Drawing.Point(332, 14);
+            this.iconButtonIncio_NoCuotasV.Name = "iconButtonIncio_NoCuotasV";
+            this.iconButtonIncio_NoCuotasV.Rotation = 0D;
+            this.iconButtonIncio_NoCuotasV.Size = new System.Drawing.Size(115, 65);
+            this.iconButtonIncio_NoCuotasV.TabIndex = 32;
+            this.iconButtonIncio_NoCuotasV.Text = "0";
+            this.iconButtonIncio_NoCuotasV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButtonIncio_NoCuotasV.UseVisualStyleBackColor = false;
+            // 
+            // iconButtonIncio_NoPrest
+            // 
+            this.iconButtonIncio_NoPrest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoPrest.Cursor = System.Windows.Forms.Cursors.Default;
+            this.iconButtonIncio_NoPrest.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.iconButtonIncio_NoPrest.FlatAppearance.BorderSize = 3;
+            this.iconButtonIncio_NoPrest.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoPrest.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
+            this.iconButtonIncio_NoPrest.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.iconButtonIncio_NoPrest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonIncio_NoPrest.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonIncio_NoPrest.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonIncio_NoPrest.ForeColor = System.Drawing.Color.White;
+            this.iconButtonIncio_NoPrest.IconChar = FontAwesome.Sharp.IconChar.FileAlt;
+            this.iconButtonIncio_NoPrest.IconColor = System.Drawing.Color.White;
+            this.iconButtonIncio_NoPrest.IconSize = 30;
+            this.iconButtonIncio_NoPrest.Location = new System.Drawing.Point(176, 14);
+            this.iconButtonIncio_NoPrest.Name = "iconButtonIncio_NoPrest";
+            this.iconButtonIncio_NoPrest.Rotation = 0D;
+            this.iconButtonIncio_NoPrest.Size = new System.Drawing.Size(115, 65);
+            this.iconButtonIncio_NoPrest.TabIndex = 32;
+            this.iconButtonIncio_NoPrest.Text = "0";
+            this.iconButtonIncio_NoPrest.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconButtonIncio_NoPrest.UseVisualStyleBackColor = false;
+            // 
+            // iconPictureBox1
+            // 
+            this.iconPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.iconPictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.iconPictureBox1.ForeColor = System.Drawing.Color.Black;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconPictureBox1.IconColor = System.Drawing.Color.Black;
+            this.iconPictureBox1.IconSize = 63;
+            this.iconPictureBox1.Location = new System.Drawing.Point(2, 18);
+            this.iconPictureBox1.Name = "iconPictureBox1";
+            this.iconPictureBox1.Size = new System.Drawing.Size(145, 63);
+            this.iconPictureBox1.TabIndex = 66;
+            this.iconPictureBox1.TabStop = false;
+            // 
+            // iconButtonClientes_UpdateRef
+            // 
+            this.iconButtonClientes_UpdateRef.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconButtonClientes_UpdateRef.BackColor = System.Drawing.Color.SteelBlue;
+            this.iconButtonClientes_UpdateRef.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonClientes_UpdateRef.FlatAppearance.BorderSize = 0;
+            this.iconButtonClientes_UpdateRef.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonClientes_UpdateRef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonClientes_UpdateRef.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonClientes_UpdateRef.ForeColor = System.Drawing.Color.White;
+            this.iconButtonClientes_UpdateRef.IconChar = FontAwesome.Sharp.IconChar.Sync;
+            this.iconButtonClientes_UpdateRef.IconColor = System.Drawing.Color.White;
+            this.iconButtonClientes_UpdateRef.IconSize = 30;
+            this.iconButtonClientes_UpdateRef.Location = new System.Drawing.Point(257, 207);
+            this.iconButtonClientes_UpdateRef.Name = "iconButtonClientes_UpdateRef";
+            this.iconButtonClientes_UpdateRef.Rotation = 0D;
+            this.iconButtonClientes_UpdateRef.Size = new System.Drawing.Size(122, 30);
+            this.iconButtonClientes_UpdateRef.TabIndex = 51;
+            this.iconButtonClientes_UpdateRef.Text = "Actualizar";
+            this.iconButtonClientes_UpdateRef.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonClientes_UpdateRef.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonClientes_UpdateRef.UseVisualStyleBackColor = false;
+            this.iconButtonClientes_UpdateRef.Click += new System.EventHandler(this.iconButtonClientes_UpdateRef_Click);
+            // 
+            // iconButtonClientes_EliminarReferencia
+            // 
+            this.iconButtonClientes_EliminarReferencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconButtonClientes_EliminarReferencia.BackColor = System.Drawing.Color.Red;
+            this.iconButtonClientes_EliminarReferencia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonClientes_EliminarReferencia.FlatAppearance.BorderSize = 0;
+            this.iconButtonClientes_EliminarReferencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonClientes_EliminarReferencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonClientes_EliminarReferencia.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonClientes_EliminarReferencia.ForeColor = System.Drawing.Color.White;
+            this.iconButtonClientes_EliminarReferencia.IconChar = FontAwesome.Sharp.IconChar.Minus;
+            this.iconButtonClientes_EliminarReferencia.IconColor = System.Drawing.Color.White;
+            this.iconButtonClientes_EliminarReferencia.IconSize = 30;
+            this.iconButtonClientes_EliminarReferencia.Location = new System.Drawing.Point(133, 207);
+            this.iconButtonClientes_EliminarReferencia.Name = "iconButtonClientes_EliminarReferencia";
+            this.iconButtonClientes_EliminarReferencia.Rotation = 0D;
+            this.iconButtonClientes_EliminarReferencia.Size = new System.Drawing.Size(122, 30);
+            this.iconButtonClientes_EliminarReferencia.TabIndex = 50;
+            this.iconButtonClientes_EliminarReferencia.Text = "Eliminar";
+            this.iconButtonClientes_EliminarReferencia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonClientes_EliminarReferencia.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonClientes_EliminarReferencia.UseVisualStyleBackColor = false;
+            this.iconButtonClientes_EliminarReferencia.Click += new System.EventHandler(this.iconButtonClientes_EliminarReferencia_Click);
+            // 
+            // iconButtonClientes_AgregarReferencia
+            // 
+            this.iconButtonClientes_AgregarReferencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconButtonClientes_AgregarReferencia.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.iconButtonClientes_AgregarReferencia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonClientes_AgregarReferencia.FlatAppearance.BorderSize = 0;
+            this.iconButtonClientes_AgregarReferencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonClientes_AgregarReferencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonClientes_AgregarReferencia.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonClientes_AgregarReferencia.ForeColor = System.Drawing.Color.White;
+            this.iconButtonClientes_AgregarReferencia.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.iconButtonClientes_AgregarReferencia.IconColor = System.Drawing.Color.White;
+            this.iconButtonClientes_AgregarReferencia.IconSize = 30;
+            this.iconButtonClientes_AgregarReferencia.Location = new System.Drawing.Point(9, 207);
+            this.iconButtonClientes_AgregarReferencia.Name = "iconButtonClientes_AgregarReferencia";
+            this.iconButtonClientes_AgregarReferencia.Rotation = 0D;
+            this.iconButtonClientes_AgregarReferencia.Size = new System.Drawing.Size(122, 30);
+            this.iconButtonClientes_AgregarReferencia.TabIndex = 4;
+            this.iconButtonClientes_AgregarReferencia.Text = "Agregar";
+            this.iconButtonClientes_AgregarReferencia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonClientes_AgregarReferencia.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonClientes_AgregarReferencia.UseVisualStyleBackColor = false;
+            this.iconButtonClientes_AgregarReferencia.Click += new System.EventHandler(this.iconButtonClientes_AgregarReferencia_Click);
+            // 
+            // iconButtonClientes_Cancelar
+            // 
+            this.iconButtonClientes_Cancelar.BackColor = System.Drawing.Color.Crimson;
+            this.iconButtonClientes_Cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonClientes_Cancelar.FlatAppearance.BorderSize = 0;
+            this.iconButtonClientes_Cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonClientes_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonClientes_Cancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonClientes_Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonClientes_Cancelar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Cancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
+            this.iconButtonClientes_Cancelar.IconColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Cancelar.IconSize = 30;
+            this.iconButtonClientes_Cancelar.Location = new System.Drawing.Point(228, 6);
+            this.iconButtonClientes_Cancelar.Name = "iconButtonClientes_Cancelar";
+            this.iconButtonClientes_Cancelar.Rotation = 0D;
+            this.iconButtonClientes_Cancelar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonClientes_Cancelar.TabIndex = 11;
+            this.iconButtonClientes_Cancelar.Text = "Cancelar";
+            this.iconButtonClientes_Cancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonClientes_Cancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonClientes_Cancelar.UseVisualStyleBackColor = false;
+            this.iconButtonClientes_Cancelar.Click += new System.EventHandler(this.iconButtonClientes_Cancelar_Click);
+            // 
+            // iconButtonClientes_Editar
+            // 
+            this.iconButtonClientes_Editar.BackColor = System.Drawing.Color.Orange;
+            this.iconButtonClientes_Editar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonClientes_Editar.FlatAppearance.BorderSize = 0;
+            this.iconButtonClientes_Editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonClientes_Editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonClientes_Editar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonClientes_Editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonClientes_Editar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Editar.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.iconButtonClientes_Editar.IconColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Editar.IconSize = 30;
+            this.iconButtonClientes_Editar.Location = new System.Drawing.Point(116, 6);
+            this.iconButtonClientes_Editar.Name = "iconButtonClientes_Editar";
+            this.iconButtonClientes_Editar.Rotation = 0D;
+            this.iconButtonClientes_Editar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonClientes_Editar.TabIndex = 12;
+            this.iconButtonClientes_Editar.Text = "Editar";
+            this.iconButtonClientes_Editar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonClientes_Editar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonClientes_Editar.UseVisualStyleBackColor = false;
+            this.iconButtonClientes_Editar.Click += new System.EventHandler(this.iconButtonClientes_Editar_Click);
+            // 
+            // iconButtonClientes_Guardar
+            // 
+            this.iconButtonClientes_Guardar.BackColor = System.Drawing.Color.Green;
+            this.iconButtonClientes_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonClientes_Guardar.FlatAppearance.BorderSize = 0;
+            this.iconButtonClientes_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonClientes_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonClientes_Guardar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonClientes_Guardar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Guardar.IconChar = FontAwesome.Sharp.IconChar.Save;
+            this.iconButtonClientes_Guardar.IconColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Guardar.IconSize = 30;
+            this.iconButtonClientes_Guardar.Location = new System.Drawing.Point(339, 6);
+            this.iconButtonClientes_Guardar.Name = "iconButtonClientes_Guardar";
+            this.iconButtonClientes_Guardar.Rotation = 0D;
+            this.iconButtonClientes_Guardar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonClientes_Guardar.TabIndex = 10;
+            this.iconButtonClientes_Guardar.Text = "Guardar";
+            this.iconButtonClientes_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonClientes_Guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonClientes_Guardar.UseVisualStyleBackColor = false;
+            this.iconButtonClientes_Guardar.Click += new System.EventHandler(this.iconButtonClientes_Guardar_Click);
+            // 
+            // iconButtonClientes_Nuevo
+            // 
+            this.iconButtonClientes_Nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(102)))), ((int)(((byte)(240)))));
+            this.iconButtonClientes_Nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonClientes_Nuevo.FlatAppearance.BorderSize = 0;
+            this.iconButtonClientes_Nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonClientes_Nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonClientes_Nuevo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonClientes_Nuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonClientes_Nuevo.ForeColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Nuevo.IconChar = FontAwesome.Sharp.IconChar.File;
+            this.iconButtonClientes_Nuevo.IconColor = System.Drawing.Color.White;
+            this.iconButtonClientes_Nuevo.IconSize = 30;
+            this.iconButtonClientes_Nuevo.Location = new System.Drawing.Point(4, 6);
+            this.iconButtonClientes_Nuevo.Name = "iconButtonClientes_Nuevo";
+            this.iconButtonClientes_Nuevo.Rotation = 0D;
+            this.iconButtonClientes_Nuevo.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonClientes_Nuevo.TabIndex = 13;
+            this.iconButtonClientes_Nuevo.Text = "Nuevo";
+            this.iconButtonClientes_Nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonClientes_Nuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonClientes_Nuevo.UseVisualStyleBackColor = false;
+            this.iconButtonClientes_Nuevo.Click += new System.EventHandler(this.iconButtonClientes_Nuevo_Click);
+            // 
+            // iconButtonSolicitud_Calcular
+            // 
+            this.iconButtonSolicitud_Calcular.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonSolicitud_Calcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(130)))), ((int)(((byte)(240)))));
+            this.iconButtonSolicitud_Calcular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_Calcular.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_Calcular.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_Calcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_Calcular.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_Calcular.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Calcular.IconChar = FontAwesome.Sharp.IconChar.Calculator;
+            this.iconButtonSolicitud_Calcular.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Calcular.IconSize = 30;
+            this.iconButtonSolicitud_Calcular.Location = new System.Drawing.Point(857, 173);
+            this.iconButtonSolicitud_Calcular.Name = "iconButtonSolicitud_Calcular";
+            this.iconButtonSolicitud_Calcular.Rotation = 0D;
+            this.iconButtonSolicitud_Calcular.Size = new System.Drawing.Size(135, 39);
+            this.iconButtonSolicitud_Calcular.TabIndex = 17;
+            this.iconButtonSolicitud_Calcular.Text = "Calcular";
+            this.iconButtonSolicitud_Calcular.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_Calcular.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_Calcular.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_Calcular.Click += new System.EventHandler(this.iconButtonSolicitud_Calcular_Click);
+            // 
+            // iconButtonSolicitud_BuscarCodigo
+            // 
+            this.iconButtonSolicitud_BuscarCodigo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonSolicitud_BuscarCodigo.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.iconButtonSolicitud_BuscarCodigo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_BuscarCodigo.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_BuscarCodigo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_BuscarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_BuscarCodigo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_BuscarCodigo.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonSolicitud_BuscarCodigo.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarCodigo.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
+            this.iconButtonSolicitud_BuscarCodigo.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarCodigo.IconSize = 25;
+            this.iconButtonSolicitud_BuscarCodigo.Location = new System.Drawing.Point(156, 35);
+            this.iconButtonSolicitud_BuscarCodigo.Name = "iconButtonSolicitud_BuscarCodigo";
+            this.iconButtonSolicitud_BuscarCodigo.Rotation = 0D;
+            this.iconButtonSolicitud_BuscarCodigo.Size = new System.Drawing.Size(45, 27);
+            this.iconButtonSolicitud_BuscarCodigo.TabIndex = 59;
+            this.iconButtonSolicitud_BuscarCodigo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_BuscarCodigo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_BuscarCodigo.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_BuscarCodigo.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarCodigo_Click);
+            // 
+            // iconButtonSolicitud_BuscarCoDeudor
+            // 
+            this.iconButtonSolicitud_BuscarCoDeudor.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonSolicitud_BuscarCoDeudor.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.iconButtonSolicitud_BuscarCoDeudor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_BuscarCoDeudor.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_BuscarCoDeudor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_BuscarCoDeudor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_BuscarCoDeudor.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_BuscarCoDeudor.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonSolicitud_BuscarCoDeudor.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarCoDeudor.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
+            this.iconButtonSolicitud_BuscarCoDeudor.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarCoDeudor.IconSize = 25;
+            this.iconButtonSolicitud_BuscarCoDeudor.Location = new System.Drawing.Point(156, 40);
+            this.iconButtonSolicitud_BuscarCoDeudor.Name = "iconButtonSolicitud_BuscarCoDeudor";
+            this.iconButtonSolicitud_BuscarCoDeudor.Rotation = 0D;
+            this.iconButtonSolicitud_BuscarCoDeudor.Size = new System.Drawing.Size(45, 27);
+            this.iconButtonSolicitud_BuscarCoDeudor.TabIndex = 59;
+            this.iconButtonSolicitud_BuscarCoDeudor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_BuscarCoDeudor.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_BuscarCoDeudor.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_BuscarCoDeudor.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarCoDeudor_Click);
+            // 
+            // iconButtonSolicitud_BuscarDeudor
+            // 
+            this.iconButtonSolicitud_BuscarDeudor.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonSolicitud_BuscarDeudor.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.iconButtonSolicitud_BuscarDeudor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_BuscarDeudor.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_BuscarDeudor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_BuscarDeudor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_BuscarDeudor.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_BuscarDeudor.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonSolicitud_BuscarDeudor.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarDeudor.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
+            this.iconButtonSolicitud_BuscarDeudor.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarDeudor.IconSize = 25;
+            this.iconButtonSolicitud_BuscarDeudor.Location = new System.Drawing.Point(156, 35);
+            this.iconButtonSolicitud_BuscarDeudor.Name = "iconButtonSolicitud_BuscarDeudor";
+            this.iconButtonSolicitud_BuscarDeudor.Rotation = 0D;
+            this.iconButtonSolicitud_BuscarDeudor.Size = new System.Drawing.Size(45, 27);
+            this.iconButtonSolicitud_BuscarDeudor.TabIndex = 68;
+            this.iconButtonSolicitud_BuscarDeudor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_BuscarDeudor.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_BuscarDeudor.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_BuscarDeudor.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarDeudor_Click);
+            // 
+            // iconButtonSolicitud_Imprimir
+            // 
+            this.iconButtonSolicitud_Imprimir.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonSolicitud_Imprimir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(15)))), ((int)(((byte)(80)))));
+            this.iconButtonSolicitud_Imprimir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_Imprimir.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_Imprimir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_Imprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_Imprimir.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_Imprimir.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Imprimir.IconChar = FontAwesome.Sharp.IconChar.Print;
+            this.iconButtonSolicitud_Imprimir.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Imprimir.IconSize = 30;
+            this.iconButtonSolicitud_Imprimir.Location = new System.Drawing.Point(1130, 6);
+            this.iconButtonSolicitud_Imprimir.Name = "iconButtonSolicitud_Imprimir";
+            this.iconButtonSolicitud_Imprimir.Rotation = 0D;
+            this.iconButtonSolicitud_Imprimir.Size = new System.Drawing.Size(143, 33);
+            this.iconButtonSolicitud_Imprimir.TabIndex = 24;
+            this.iconButtonSolicitud_Imprimir.Text = "Imprimir";
+            this.iconButtonSolicitud_Imprimir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_Imprimir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_Imprimir.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_Imprimir.Click += new System.EventHandler(this.iconButtonSolicitud_Imprimir_Click);
+            // 
+            // iconButtonSolicitud_Resumen
+            // 
+            this.iconButtonSolicitud_Resumen.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonSolicitud_Resumen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(15)))), ((int)(((byte)(80)))));
+            this.iconButtonSolicitud_Resumen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_Resumen.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_Resumen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_Resumen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_Resumen.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_Resumen.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Resumen.IconChar = FontAwesome.Sharp.IconChar.ThList;
+            this.iconButtonSolicitud_Resumen.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Resumen.IconSize = 30;
+            this.iconButtonSolicitud_Resumen.Location = new System.Drawing.Point(981, 6);
+            this.iconButtonSolicitud_Resumen.Name = "iconButtonSolicitud_Resumen";
+            this.iconButtonSolicitud_Resumen.Rotation = 0D;
+            this.iconButtonSolicitud_Resumen.Size = new System.Drawing.Size(143, 33);
+            this.iconButtonSolicitud_Resumen.TabIndex = 23;
+            this.iconButtonSolicitud_Resumen.Text = "Ver Resumen";
+            this.iconButtonSolicitud_Resumen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_Resumen.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_Resumen.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_Resumen.Click += new System.EventHandler(this.iconButtonSolicitud_Resumen_Click);
+            // 
+            // iconButtonSolicitud_Cancelar
+            // 
+            this.iconButtonSolicitud_Cancelar.BackColor = System.Drawing.Color.Crimson;
+            this.iconButtonSolicitud_Cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_Cancelar.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_Cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_Cancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonSolicitud_Cancelar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Cancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
+            this.iconButtonSolicitud_Cancelar.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Cancelar.IconSize = 30;
+            this.iconButtonSolicitud_Cancelar.Location = new System.Drawing.Point(228, 6);
+            this.iconButtonSolicitud_Cancelar.Name = "iconButtonSolicitud_Cancelar";
+            this.iconButtonSolicitud_Cancelar.Rotation = 0D;
+            this.iconButtonSolicitud_Cancelar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonSolicitud_Cancelar.TabIndex = 20;
+            this.iconButtonSolicitud_Cancelar.Text = "Cancelar";
+            this.iconButtonSolicitud_Cancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_Cancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_Cancelar.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_Cancelar.Click += new System.EventHandler(this.iconButtonSolicitud_Cancelar_Click);
+            // 
+            // iconButtonSolicitud_Editar
+            // 
+            this.iconButtonSolicitud_Editar.BackColor = System.Drawing.Color.Orange;
+            this.iconButtonSolicitud_Editar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_Editar.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_Editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_Editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_Editar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_Editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonSolicitud_Editar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Editar.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            this.iconButtonSolicitud_Editar.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Editar.IconSize = 30;
+            this.iconButtonSolicitud_Editar.Location = new System.Drawing.Point(116, 6);
+            this.iconButtonSolicitud_Editar.Name = "iconButtonSolicitud_Editar";
+            this.iconButtonSolicitud_Editar.Rotation = 0D;
+            this.iconButtonSolicitud_Editar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonSolicitud_Editar.TabIndex = 21;
+            this.iconButtonSolicitud_Editar.Text = "Editar";
+            this.iconButtonSolicitud_Editar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_Editar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_Editar.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_Editar.Click += new System.EventHandler(this.iconButtonSolicitud_Editar_Click);
+            // 
+            // iconButtonSolicitud_Guardar
+            // 
+            this.iconButtonSolicitud_Guardar.BackColor = System.Drawing.Color.Green;
+            this.iconButtonSolicitud_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_Guardar.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_Guardar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_Guardar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Guardar.IconChar = FontAwesome.Sharp.IconChar.Save;
+            this.iconButtonSolicitud_Guardar.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Guardar.IconSize = 30;
+            this.iconButtonSolicitud_Guardar.Location = new System.Drawing.Point(339, 6);
+            this.iconButtonSolicitud_Guardar.Name = "iconButtonSolicitud_Guardar";
+            this.iconButtonSolicitud_Guardar.Rotation = 0D;
+            this.iconButtonSolicitud_Guardar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonSolicitud_Guardar.TabIndex = 19;
+            this.iconButtonSolicitud_Guardar.Text = "Guardar";
+            this.iconButtonSolicitud_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_Guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_Guardar.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_Guardar.Click += new System.EventHandler(this.iconButtonSolicitud_Guardar_Click);
+            // 
+            // iconButtonSolicitud_Nuevo
+            // 
+            this.iconButtonSolicitud_Nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(102)))), ((int)(((byte)(240)))));
+            this.iconButtonSolicitud_Nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_Nuevo.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_Nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_Nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_Nuevo.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_Nuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonSolicitud_Nuevo.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Nuevo.IconChar = FontAwesome.Sharp.IconChar.File;
+            this.iconButtonSolicitud_Nuevo.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_Nuevo.IconSize = 30;
+            this.iconButtonSolicitud_Nuevo.Location = new System.Drawing.Point(4, 6);
+            this.iconButtonSolicitud_Nuevo.Name = "iconButtonSolicitud_Nuevo";
+            this.iconButtonSolicitud_Nuevo.Rotation = 0D;
+            this.iconButtonSolicitud_Nuevo.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonSolicitud_Nuevo.TabIndex = 22;
+            this.iconButtonSolicitud_Nuevo.Text = "Nuevo";
+            this.iconButtonSolicitud_Nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_Nuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_Nuevo.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_Nuevo.Click += new System.EventHandler(this.iconButtonSolicitud_Nuevo_Click);
+            // 
+            // iconButtonSolicitud_BuscarCodigoSolicitud
+            // 
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.FlatAppearance.BorderSize = 0;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.ForeColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.IconColor = System.Drawing.Color.White;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.IconSize = 20;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Location = new System.Drawing.Point(616, 11);
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Name = "iconButtonSolicitud_BuscarCodigoSolicitud";
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Rotation = 0D;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Size = new System.Drawing.Size(45, 22);
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.TabIndex = 60;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.UseVisualStyleBackColor = false;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Visible = false;
+            this.iconButtonSolicitud_BuscarCodigoSolicitud.Click += new System.EventHandler(this.iconButtonSolicitud_BuscarCodigoSolicitud_Click);
+            // 
+            // iconButtonCobrosFiltrarCobros
+            // 
+            this.iconButtonCobrosFiltrarCobros.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonCobrosFiltrarCobros.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.iconButtonCobrosFiltrarCobros.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonCobrosFiltrarCobros.FlatAppearance.BorderSize = 0;
+            this.iconButtonCobrosFiltrarCobros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonCobrosFiltrarCobros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonCobrosFiltrarCobros.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonCobrosFiltrarCobros.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonCobrosFiltrarCobros.ForeColor = System.Drawing.Color.White;
+            this.iconButtonCobrosFiltrarCobros.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
+            this.iconButtonCobrosFiltrarCobros.IconColor = System.Drawing.Color.White;
+            this.iconButtonCobrosFiltrarCobros.IconSize = 25;
+            this.iconButtonCobrosFiltrarCobros.Location = new System.Drawing.Point(342, 17);
+            this.iconButtonCobrosFiltrarCobros.Name = "iconButtonCobrosFiltrarCobros";
+            this.iconButtonCobrosFiltrarCobros.Rotation = 0D;
+            this.iconButtonCobrosFiltrarCobros.Size = new System.Drawing.Size(40, 27);
+            this.iconButtonCobrosFiltrarCobros.TabIndex = 61;
+            this.iconButtonCobrosFiltrarCobros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonCobrosFiltrarCobros.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonCobrosFiltrarCobros.UseVisualStyleBackColor = false;
+            // 
+            // iconButtonCobrosCancelar
+            // 
+            this.iconButtonCobrosCancelar.BackColor = System.Drawing.Color.Crimson;
+            this.iconButtonCobrosCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonCobrosCancelar.FlatAppearance.BorderSize = 0;
+            this.iconButtonCobrosCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonCobrosCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonCobrosCancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonCobrosCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonCobrosCancelar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonCobrosCancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
+            this.iconButtonCobrosCancelar.IconColor = System.Drawing.Color.White;
+            this.iconButtonCobrosCancelar.IconSize = 30;
+            this.iconButtonCobrosCancelar.Location = new System.Drawing.Point(56, 164);
+            this.iconButtonCobrosCancelar.Name = "iconButtonCobrosCancelar";
+            this.iconButtonCobrosCancelar.Rotation = 0D;
+            this.iconButtonCobrosCancelar.Size = new System.Drawing.Size(160, 40);
+            this.iconButtonCobrosCancelar.TabIndex = 71;
+            this.iconButtonCobrosCancelar.Text = "Cancelar";
+            this.iconButtonCobrosCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonCobrosCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonCobrosCancelar.UseVisualStyleBackColor = false;
+            this.iconButtonCobrosCancelar.Click += new System.EventHandler(this.iconButtonCobrosCancelar_Click);
+            // 
+            // iconButtonCobrosAplicarValores
+            // 
+            this.iconButtonCobrosAplicarValores.BackColor = System.Drawing.Color.Green;
+            this.iconButtonCobrosAplicarValores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonCobrosAplicarValores.FlatAppearance.BorderSize = 0;
+            this.iconButtonCobrosAplicarValores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonCobrosAplicarValores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonCobrosAplicarValores.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonCobrosAplicarValores.ForeColor = System.Drawing.Color.White;
+            this.iconButtonCobrosAplicarValores.IconChar = FontAwesome.Sharp.IconChar.Save;
+            this.iconButtonCobrosAplicarValores.IconColor = System.Drawing.Color.White;
+            this.iconButtonCobrosAplicarValores.IconSize = 30;
+            this.iconButtonCobrosAplicarValores.Location = new System.Drawing.Point(305, 164);
+            this.iconButtonCobrosAplicarValores.Name = "iconButtonCobrosAplicarValores";
+            this.iconButtonCobrosAplicarValores.Rotation = 0D;
+            this.iconButtonCobrosAplicarValores.Size = new System.Drawing.Size(160, 40);
+            this.iconButtonCobrosAplicarValores.TabIndex = 70;
+            this.iconButtonCobrosAplicarValores.Text = "Aplicar Valores";
+            this.iconButtonCobrosAplicarValores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonCobrosAplicarValores.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonCobrosAplicarValores.UseVisualStyleBackColor = false;
+            this.iconButtonCobrosAplicarValores.Click += new System.EventHandler(this.iconButtonCobros_AplicarValores_Click);
+            // 
+            // iconButtonCobrosVerSolicitud
+            // 
+            this.iconButtonCobrosVerSolicitud.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(15)))), ((int)(((byte)(80)))));
+            this.iconButtonCobrosVerSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonCobrosVerSolicitud.FlatAppearance.BorderSize = 0;
+            this.iconButtonCobrosVerSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonCobrosVerSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonCobrosVerSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonCobrosVerSolicitud.ForeColor = System.Drawing.Color.White;
+            this.iconButtonCobrosVerSolicitud.IconChar = FontAwesome.Sharp.IconChar.Elementor;
+            this.iconButtonCobrosVerSolicitud.IconColor = System.Drawing.Color.White;
+            this.iconButtonCobrosVerSolicitud.IconSize = 30;
+            this.iconButtonCobrosVerSolicitud.Location = new System.Drawing.Point(6, 170);
+            this.iconButtonCobrosVerSolicitud.Name = "iconButtonCobrosVerSolicitud";
+            this.iconButtonCobrosVerSolicitud.Rotation = 0D;
+            this.iconButtonCobrosVerSolicitud.Size = new System.Drawing.Size(149, 38);
+            this.iconButtonCobrosVerSolicitud.TabIndex = 61;
+            this.iconButtonCobrosVerSolicitud.Text = "Ver Solicitud";
+            this.iconButtonCobrosVerSolicitud.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonCobrosVerSolicitud.UseVisualStyleBackColor = false;
+            this.iconButtonCobrosVerSolicitud.Click += new System.EventHandler(this.iconButtonCobros_VerSolicitud_Click);
+            // 
+            // iconButtonCobrosBuscarCliente
+            // 
+            this.iconButtonCobrosBuscarCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.iconButtonCobrosBuscarCliente.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.iconButtonCobrosBuscarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonCobrosBuscarCliente.FlatAppearance.BorderSize = 0;
+            this.iconButtonCobrosBuscarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonCobrosBuscarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonCobrosBuscarCliente.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonCobrosBuscarCliente.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonCobrosBuscarCliente.ForeColor = System.Drawing.Color.White;
+            this.iconButtonCobrosBuscarCliente.IconChar = FontAwesome.Sharp.IconChar.Sistrix;
+            this.iconButtonCobrosBuscarCliente.IconColor = System.Drawing.Color.White;
+            this.iconButtonCobrosBuscarCliente.IconSize = 25;
+            this.iconButtonCobrosBuscarCliente.Location = new System.Drawing.Point(161, 43);
+            this.iconButtonCobrosBuscarCliente.Name = "iconButtonCobrosBuscarCliente";
+            this.iconButtonCobrosBuscarCliente.Rotation = 0D;
+            this.iconButtonCobrosBuscarCliente.Size = new System.Drawing.Size(45, 27);
+            this.iconButtonCobrosBuscarCliente.TabIndex = 60;
+            this.iconButtonCobrosBuscarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonCobrosBuscarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonCobrosBuscarCliente.UseVisualStyleBackColor = false;
+            this.iconButtonCobrosBuscarCliente.Click += new System.EventHandler(this.iconButtonCobros_BuscarCliente_Click);
+            // 
+            // iconButtonLS_Cancelar
+            // 
+            this.iconButtonLS_Cancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconButtonLS_Cancelar.BackColor = System.Drawing.Color.Crimson;
+            this.iconButtonLS_Cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonLS_Cancelar.FlatAppearance.BorderSize = 0;
+            this.iconButtonLS_Cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonLS_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonLS_Cancelar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonLS_Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonLS_Cancelar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonLS_Cancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
+            this.iconButtonLS_Cancelar.IconColor = System.Drawing.Color.White;
+            this.iconButtonLS_Cancelar.IconSize = 30;
+            this.iconButtonLS_Cancelar.Location = new System.Drawing.Point(6, 460);
+            this.iconButtonLS_Cancelar.Name = "iconButtonLS_Cancelar";
+            this.iconButtonLS_Cancelar.Rotation = 0D;
+            this.iconButtonLS_Cancelar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonLS_Cancelar.TabIndex = 138;
+            this.iconButtonLS_Cancelar.Text = "Cancelar";
+            this.iconButtonLS_Cancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonLS_Cancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonLS_Cancelar.UseVisualStyleBackColor = false;
+            this.iconButtonLS_Cancelar.Click += new System.EventHandler(this.iconButtonLS_Cancelar_Click);
+            // 
+            // iconButtonLS_Guardar
+            // 
+            this.iconButtonLS_Guardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconButtonLS_Guardar.BackColor = System.Drawing.Color.Green;
+            this.iconButtonLS_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonLS_Guardar.FlatAppearance.BorderSize = 0;
+            this.iconButtonLS_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(222)))), ((int)(((byte)(2)))));
+            this.iconButtonLS_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonLS_Guardar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonLS_Guardar.ForeColor = System.Drawing.Color.White;
+            this.iconButtonLS_Guardar.IconChar = FontAwesome.Sharp.IconChar.Save;
+            this.iconButtonLS_Guardar.IconColor = System.Drawing.Color.White;
+            this.iconButtonLS_Guardar.IconSize = 30;
+            this.iconButtonLS_Guardar.Location = new System.Drawing.Point(118, 460);
+            this.iconButtonLS_Guardar.Name = "iconButtonLS_Guardar";
+            this.iconButtonLS_Guardar.Rotation = 0D;
+            this.iconButtonLS_Guardar.Size = new System.Drawing.Size(110, 40);
+            this.iconButtonLS_Guardar.TabIndex = 19;
+            this.iconButtonLS_Guardar.Text = "Guardar";
+            this.iconButtonLS_Guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButtonLS_Guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonLS_Guardar.UseVisualStyleBackColor = false;
+            this.iconButtonLS_Guardar.Click += new System.EventHandler(this.iconButtonLS_Guardar_Click);
+            // 
+            // iconButtonReporte_Cerrar
+            // 
+            this.iconButtonReporte_Cerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButtonReporte_Cerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonReporte_Cerrar.FlatAppearance.BorderSize = 0;
+            this.iconButtonReporte_Cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonReporte_Cerrar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonReporte_Cerrar.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
+            this.iconButtonReporte_Cerrar.IconColor = System.Drawing.Color.Red;
+            this.iconButtonReporte_Cerrar.IconSize = 25;
+            this.iconButtonReporte_Cerrar.Location = new System.Drawing.Point(1128, 7);
+            this.iconButtonReporte_Cerrar.Name = "iconButtonReporte_Cerrar";
+            this.iconButtonReporte_Cerrar.Rotation = 0D;
+            this.iconButtonReporte_Cerrar.Size = new System.Drawing.Size(145, 32);
+            this.iconButtonReporte_Cerrar.TabIndex = 1;
+            this.iconButtonReporte_Cerrar.Text = "Cerrar Reporte";
+            this.iconButtonReporte_Cerrar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.iconButtonReporte_Cerrar.UseVisualStyleBackColor = true;
+            this.iconButtonReporte_Cerrar.Click += new System.EventHandler(this.iconButtonReporte_Cerrar_Click);
+            // 
+            // iconButtonMenu_ListaCobros
+            // 
+            this.iconButtonMenu_ListaCobros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(130)))), ((int)(((byte)(240)))));
+            this.iconButtonMenu_ListaCobros.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_ListaCobros.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_ListaCobros.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_ListaCobros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_ListaCobros.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_ListaCobros.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_ListaCobros.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_ListaCobros.IconChar = FontAwesome.Sharp.IconChar.HandHoldingUsd;
+            this.iconButtonMenu_ListaCobros.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_ListaCobros.IconSize = 50;
+            this.iconButtonMenu_ListaCobros.Location = new System.Drawing.Point(303, 0);
+            this.iconButtonMenu_ListaCobros.Name = "iconButtonMenu_ListaCobros";
+            this.iconButtonMenu_ListaCobros.Rotation = 0D;
+            this.iconButtonMenu_ListaCobros.Size = new System.Drawing.Size(127, 70);
+            this.iconButtonMenu_ListaCobros.TabIndex = 22;
+            this.iconButtonMenu_ListaCobros.Text = "Reporte Cobros";
+            this.iconButtonMenu_ListaCobros.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_ListaCobros.UseVisualStyleBackColor = false;
+            this.iconButtonMenu_ListaCobros.Click += new System.EventHandler(this.iconButtonMenu_ListaCobros_Click);
+            // 
+            // iconButtonMenu_ListPrestamos
+            // 
+            this.iconButtonMenu_ListPrestamos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_ListPrestamos.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_ListPrestamos.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_ListPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_ListPrestamos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_ListPrestamos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_ListPrestamos.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_ListPrestamos.IconChar = FontAwesome.Sharp.IconChar.FileAlt;
+            this.iconButtonMenu_ListPrestamos.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_ListPrestamos.IconSize = 50;
+            this.iconButtonMenu_ListPrestamos.Location = new System.Drawing.Point(149, 0);
+            this.iconButtonMenu_ListPrestamos.Name = "iconButtonMenu_ListPrestamos";
+            this.iconButtonMenu_ListPrestamos.Rotation = 0D;
+            this.iconButtonMenu_ListPrestamos.Size = new System.Drawing.Size(154, 70);
+            this.iconButtonMenu_ListPrestamos.TabIndex = 21;
+            this.iconButtonMenu_ListPrestamos.Text = "Reporte Préstamos";
+            this.iconButtonMenu_ListPrestamos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_ListPrestamos.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_ListPrestamos.Click += new System.EventHandler(this.iconButtonMenu_ListPrestamos_Click);
+            // 
+            // iconButtonMenu_CarteraPrestamos
+            // 
+            this.iconButtonMenu_CarteraPrestamos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_CarteraPrestamos.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_CarteraPrestamos.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_CarteraPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_CarteraPrestamos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_CarteraPrestamos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_CarteraPrestamos.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_CarteraPrestamos.IconChar = FontAwesome.Sharp.IconChar.FileInvoiceDollar;
+            this.iconButtonMenu_CarteraPrestamos.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_CarteraPrestamos.IconSize = 50;
+            this.iconButtonMenu_CarteraPrestamos.Location = new System.Drawing.Point(0, 0);
+            this.iconButtonMenu_CarteraPrestamos.Name = "iconButtonMenu_CarteraPrestamos";
+            this.iconButtonMenu_CarteraPrestamos.Rotation = 0D;
+            this.iconButtonMenu_CarteraPrestamos.Size = new System.Drawing.Size(149, 70);
+            this.iconButtonMenu_CarteraPrestamos.TabIndex = 20;
+            this.iconButtonMenu_CarteraPrestamos.Text = "Cartera  Préstamos";
+            this.iconButtonMenu_CarteraPrestamos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_CarteraPrestamos.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_CarteraPrestamos.Click += new System.EventHandler(this.iconButtonMenu_ListaPrestamos_Click);
+            // 
+            // iconButtonMenu_ListaSolicitud
+            // 
+            this.iconButtonMenu_ListaSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_ListaSolicitud.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_ListaSolicitud.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_ListaSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_ListaSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_ListaSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_ListaSolicitud.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_ListaSolicitud.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.iconButtonMenu_ListaSolicitud.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_ListaSolicitud.IconSize = 45;
+            this.iconButtonMenu_ListaSolicitud.Location = new System.Drawing.Point(473, 0);
+            this.iconButtonMenu_ListaSolicitud.Name = "iconButtonMenu_ListaSolicitud";
+            this.iconButtonMenu_ListaSolicitud.Rotation = 0D;
+            this.iconButtonMenu_ListaSolicitud.Size = new System.Drawing.Size(170, 70);
+            this.iconButtonMenu_ListaSolicitud.TabIndex = 19;
+            this.iconButtonMenu_ListaSolicitud.Text = "Seguimiento Solicitud";
+            this.iconButtonMenu_ListaSolicitud.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_ListaSolicitud.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_ListaSolicitud.Click += new System.EventHandler(this.iconButtonMenu_ListaSolicitud_Click);
+            // 
+            // iconButtonMenu_GarantiaEconomica
+            // 
+            this.iconButtonMenu_GarantiaEconomica.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_GarantiaEconomica.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_GarantiaEconomica.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_GarantiaEconomica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_GarantiaEconomica.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_GarantiaEconomica.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_GarantiaEconomica.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_GarantiaEconomica.IconChar = FontAwesome.Sharp.IconChar.Award;
+            this.iconButtonMenu_GarantiaEconomica.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_GarantiaEconomica.IconSize = 45;
+            this.iconButtonMenu_GarantiaEconomica.Location = new System.Drawing.Point(355, 0);
+            this.iconButtonMenu_GarantiaEconomica.Name = "iconButtonMenu_GarantiaEconomica";
+            this.iconButtonMenu_GarantiaEconomica.Rotation = 0D;
+            this.iconButtonMenu_GarantiaEconomica.Size = new System.Drawing.Size(118, 70);
+            this.iconButtonMenu_GarantiaEconomica.TabIndex = 21;
+            this.iconButtonMenu_GarantiaEconomica.Text = "Crear Garantía";
+            this.iconButtonMenu_GarantiaEconomica.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_GarantiaEconomica.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_GarantiaEconomica.Click += new System.EventHandler(this.iconButtonMenu_GarantiaEconomica_Click);
+            // 
+            // iconButtonMenu_RegistrarSolicitud
+            // 
+            this.iconButtonMenu_RegistrarSolicitud.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_RegistrarSolicitud.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_RegistrarSolicitud.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_RegistrarSolicitud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_RegistrarSolicitud.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_RegistrarSolicitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_RegistrarSolicitud.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_RegistrarSolicitud.IconChar = FontAwesome.Sharp.IconChar.Elementor;
+            this.iconButtonMenu_RegistrarSolicitud.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_RegistrarSolicitud.IconSize = 45;
+            this.iconButtonMenu_RegistrarSolicitud.Location = new System.Drawing.Point(237, 0);
+            this.iconButtonMenu_RegistrarSolicitud.Name = "iconButtonMenu_RegistrarSolicitud";
+            this.iconButtonMenu_RegistrarSolicitud.Rotation = 0D;
+            this.iconButtonMenu_RegistrarSolicitud.Size = new System.Drawing.Size(118, 70);
+            this.iconButtonMenu_RegistrarSolicitud.TabIndex = 17;
+            this.iconButtonMenu_RegistrarSolicitud.Text = "Crear Solicitud";
+            this.iconButtonMenu_RegistrarSolicitud.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_RegistrarSolicitud.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_RegistrarSolicitud.Click += new System.EventHandler(this.iconButtonMenu_CrearSolicitud_Click);
+            // 
+            // iconButtonMenu_Clientes
+            // 
+            this.iconButtonMenu_Clientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_Clientes.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_Clientes.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_Clientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_Clientes.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_Clientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_Clientes.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_Clientes.IconChar = FontAwesome.Sharp.IconChar.UserTie;
+            this.iconButtonMenu_Clientes.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_Clientes.IconSize = 45;
+            this.iconButtonMenu_Clientes.Location = new System.Drawing.Point(129, 0);
+            this.iconButtonMenu_Clientes.Name = "iconButtonMenu_Clientes";
+            this.iconButtonMenu_Clientes.Rotation = 0D;
+            this.iconButtonMenu_Clientes.Size = new System.Drawing.Size(108, 70);
+            this.iconButtonMenu_Clientes.TabIndex = 16;
+            this.iconButtonMenu_Clientes.Text = "Crear Cliente";
+            this.iconButtonMenu_Clientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_Clientes.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_Clientes.Click += new System.EventHandler(this.iconButtonMenu_Clientes_Click);
+            // 
+            // iconButtonMenu_RegistarCobro
+            // 
+            this.iconButtonMenu_RegistarCobro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_RegistarCobro.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_RegistarCobro.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_RegistarCobro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_RegistarCobro.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_RegistarCobro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_RegistarCobro.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_RegistarCobro.IconChar = FontAwesome.Sharp.IconChar.CashRegister;
+            this.iconButtonMenu_RegistarCobro.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_RegistarCobro.IconSize = 45;
+            this.iconButtonMenu_RegistarCobro.Location = new System.Drawing.Point(0, 0);
+            this.iconButtonMenu_RegistarCobro.Name = "iconButtonMenu_RegistarCobro";
+            this.iconButtonMenu_RegistarCobro.Rotation = 0D;
+            this.iconButtonMenu_RegistarCobro.Size = new System.Drawing.Size(129, 70);
+            this.iconButtonMenu_RegistarCobro.TabIndex = 18;
+            this.iconButtonMenu_RegistarCobro.Text = "Registrar Cobro";
+            this.iconButtonMenu_RegistarCobro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.iconButtonMenu_RegistarCobro.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_RegistarCobro.Click += new System.EventHandler(this.iconButtonMenu_RegistarCobro_Click);
+            // 
+            // iconButtonMenu_Configuracion
+            // 
+            this.iconButtonMenu_Configuracion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonMenu_Configuracion.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonMenu_Configuracion.FlatAppearance.BorderSize = 0;
+            this.iconButtonMenu_Configuracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMenu_Configuracion.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMenu_Configuracion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonMenu_Configuracion.ForeColor = System.Drawing.Color.White;
+            this.iconButtonMenu_Configuracion.IconChar = FontAwesome.Sharp.IconChar.Tools;
+            this.iconButtonMenu_Configuracion.IconColor = System.Drawing.Color.White;
+            this.iconButtonMenu_Configuracion.IconSize = 30;
+            this.iconButtonMenu_Configuracion.Location = new System.Drawing.Point(474, 0);
+            this.iconButtonMenu_Configuracion.Name = "iconButtonMenu_Configuracion";
+            this.iconButtonMenu_Configuracion.Rotation = 0D;
+            this.iconButtonMenu_Configuracion.Size = new System.Drawing.Size(158, 30);
+            this.iconButtonMenu_Configuracion.TabIndex = 22;
+            this.iconButtonMenu_Configuracion.Text = "Configuraciones";
+            this.iconButtonMenu_Configuracion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButtonMenu_Configuracion.UseVisualStyleBackColor = true;
+            this.iconButtonMenu_Configuracion.Click += new System.EventHandler(this.iconButtonMenu_Configuracion_Click);
+            // 
+            // iconButtonTitulo_Consultas
+            // 
+            this.iconButtonTitulo_Consultas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonTitulo_Consultas.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonTitulo_Consultas.FlatAppearance.BorderSize = 0;
+            this.iconButtonTitulo_Consultas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonTitulo_Consultas.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonTitulo_Consultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonTitulo_Consultas.ForeColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Consultas.IconChar = FontAwesome.Sharp.IconChar.Eye;
+            this.iconButtonTitulo_Consultas.IconColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Consultas.IconSize = 30;
+            this.iconButtonTitulo_Consultas.Location = new System.Drawing.Point(316, 0);
+            this.iconButtonTitulo_Consultas.Name = "iconButtonTitulo_Consultas";
+            this.iconButtonTitulo_Consultas.Rotation = 0D;
+            this.iconButtonTitulo_Consultas.Size = new System.Drawing.Size(158, 30);
+            this.iconButtonTitulo_Consultas.TabIndex = 25;
+            this.iconButtonTitulo_Consultas.Text = "Reportes";
+            this.iconButtonTitulo_Consultas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButtonTitulo_Consultas.UseVisualStyleBackColor = true;
+            this.iconButtonTitulo_Consultas.Click += new System.EventHandler(this.iconButtonTitulo_Consultas_Click);
+            // 
+            // iconButtonTitulo_Procesos
+            // 
+            this.iconButtonTitulo_Procesos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonTitulo_Procesos.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonTitulo_Procesos.FlatAppearance.BorderSize = 0;
+            this.iconButtonTitulo_Procesos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonTitulo_Procesos.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonTitulo_Procesos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonTitulo_Procesos.ForeColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Procesos.IconChar = FontAwesome.Sharp.IconChar.Cogs;
+            this.iconButtonTitulo_Procesos.IconColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Procesos.IconSize = 30;
+            this.iconButtonTitulo_Procesos.Location = new System.Drawing.Point(158, 0);
+            this.iconButtonTitulo_Procesos.Name = "iconButtonTitulo_Procesos";
+            this.iconButtonTitulo_Procesos.Rotation = 0D;
+            this.iconButtonTitulo_Procesos.Size = new System.Drawing.Size(158, 30);
+            this.iconButtonTitulo_Procesos.TabIndex = 24;
+            this.iconButtonTitulo_Procesos.Text = "Procesos";
+            this.iconButtonTitulo_Procesos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButtonTitulo_Procesos.UseVisualStyleBackColor = true;
+            this.iconButtonTitulo_Procesos.Click += new System.EventHandler(this.iconButtonTitulo_Procesos_Click);
+            // 
+            // iconButtonTitulo_Inicio
+            // 
+            this.iconButtonTitulo_Inicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonTitulo_Inicio.Dock = System.Windows.Forms.DockStyle.Left;
+            this.iconButtonTitulo_Inicio.FlatAppearance.BorderSize = 0;
+            this.iconButtonTitulo_Inicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonTitulo_Inicio.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonTitulo_Inicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonTitulo_Inicio.ForeColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Inicio.IconChar = FontAwesome.Sharp.IconChar.Home;
+            this.iconButtonTitulo_Inicio.IconColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Inicio.IconSize = 30;
+            this.iconButtonTitulo_Inicio.Location = new System.Drawing.Point(0, 0);
+            this.iconButtonTitulo_Inicio.Name = "iconButtonTitulo_Inicio";
+            this.iconButtonTitulo_Inicio.Rotation = 0D;
+            this.iconButtonTitulo_Inicio.Size = new System.Drawing.Size(158, 30);
+            this.iconButtonTitulo_Inicio.TabIndex = 23;
+            this.iconButtonTitulo_Inicio.Text = "inicio";
+            this.iconButtonTitulo_Inicio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButtonTitulo_Inicio.UseVisualStyleBackColor = true;
+            this.iconButtonTitulo_Inicio.Click += new System.EventHandler(this.iconButtonTitulo_Inicio_Click);
+            // 
+            // iconButtonTitulo_Minimizar
+            // 
+            this.iconButtonTitulo_Minimizar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.iconButtonTitulo_Minimizar.FlatAppearance.BorderSize = 0;
+            this.iconButtonTitulo_Minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonTitulo_Minimizar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonTitulo_Minimizar.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
+            this.iconButtonTitulo_Minimizar.IconColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Minimizar.IconSize = 20;
+            this.iconButtonTitulo_Minimizar.Location = new System.Drawing.Point(1164, 0);
+            this.iconButtonTitulo_Minimizar.Name = "iconButtonTitulo_Minimizar";
+            this.iconButtonTitulo_Minimizar.Rotation = 0D;
+            this.iconButtonTitulo_Minimizar.Size = new System.Drawing.Size(30, 30);
+            this.iconButtonTitulo_Minimizar.TabIndex = 3;
+            this.iconButtonTitulo_Minimizar.UseVisualStyleBackColor = true;
+            this.iconButtonTitulo_Minimizar.Click += new System.EventHandler(this.iconButtonTitulo_Minimizar_Click);
+            // 
+            // iconButtonTitulo_Restaurar
+            // 
+            this.iconButtonTitulo_Restaurar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.iconButtonTitulo_Restaurar.FlatAppearance.BorderSize = 0;
+            this.iconButtonTitulo_Restaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonTitulo_Restaurar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonTitulo_Restaurar.IconChar = FontAwesome.Sharp.IconChar.WindowRestore;
+            this.iconButtonTitulo_Restaurar.IconColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Restaurar.IconSize = 20;
+            this.iconButtonTitulo_Restaurar.Location = new System.Drawing.Point(1194, 0);
+            this.iconButtonTitulo_Restaurar.Name = "iconButtonTitulo_Restaurar";
+            this.iconButtonTitulo_Restaurar.Rotation = 0D;
+            this.iconButtonTitulo_Restaurar.Size = new System.Drawing.Size(30, 30);
+            this.iconButtonTitulo_Restaurar.TabIndex = 2;
+            this.iconButtonTitulo_Restaurar.UseVisualStyleBackColor = true;
+            this.iconButtonTitulo_Restaurar.Click += new System.EventHandler(this.iconButtonTitulo_Restaurar_Click);
+            // 
+            // iconButtonTitulo_Maximizar
+            // 
+            this.iconButtonTitulo_Maximizar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.iconButtonTitulo_Maximizar.FlatAppearance.BorderSize = 0;
+            this.iconButtonTitulo_Maximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonTitulo_Maximizar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonTitulo_Maximizar.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
+            this.iconButtonTitulo_Maximizar.IconColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Maximizar.IconSize = 20;
+            this.iconButtonTitulo_Maximizar.Location = new System.Drawing.Point(1224, 0);
+            this.iconButtonTitulo_Maximizar.Name = "iconButtonTitulo_Maximizar";
+            this.iconButtonTitulo_Maximizar.Rotation = 0D;
+            this.iconButtonTitulo_Maximizar.Size = new System.Drawing.Size(30, 30);
+            this.iconButtonTitulo_Maximizar.TabIndex = 1;
+            this.iconButtonTitulo_Maximizar.UseVisualStyleBackColor = true;
+            this.iconButtonTitulo_Maximizar.Visible = false;
+            this.iconButtonTitulo_Maximizar.Click += new System.EventHandler(this.iconButtonTitulo_Maximizar_Click);
+            // 
+            // iconButtonTitulo_Cerrar
+            // 
+            this.iconButtonTitulo_Cerrar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.iconButtonTitulo_Cerrar.FlatAppearance.BorderSize = 0;
+            this.iconButtonTitulo_Cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonTitulo_Cerrar.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonTitulo_Cerrar.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
+            this.iconButtonTitulo_Cerrar.IconColor = System.Drawing.Color.White;
+            this.iconButtonTitulo_Cerrar.IconSize = 20;
+            this.iconButtonTitulo_Cerrar.Location = new System.Drawing.Point(1254, 0);
+            this.iconButtonTitulo_Cerrar.Name = "iconButtonTitulo_Cerrar";
+            this.iconButtonTitulo_Cerrar.Rotation = 0D;
+            this.iconButtonTitulo_Cerrar.Size = new System.Drawing.Size(30, 30);
+            this.iconButtonTitulo_Cerrar.TabIndex = 0;
+            this.iconButtonTitulo_Cerrar.UseVisualStyleBackColor = true;
+            this.iconButtonTitulo_Cerrar.Click += new System.EventHandler(this.iconButtonTitulo_Cerrar_Click);
+            // 
+            // groupBoxCobro_DistribucionPago
+            // 
+            this.groupBoxCobro_DistribucionPago.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_SeguroACobrar);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label67);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_SeguroPendiente);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label68);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_TotalACobrar);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label55);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_CapitalACobrar);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label56);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_InteresACobrar);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label57);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_ComisionACobrar);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label58);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_MoraACobrar);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label59);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_CargosACobrar);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label60);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_TotalPendiente);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label61);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_CapitalPendiente);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label62);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_InteresPendiente);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label63);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_ComisionPendiente);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label64);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_MoraPendiente);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label65);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.txtCobros_CargosPendiente);
+            this.groupBoxCobro_DistribucionPago.Controls.Add(this.label66);
+            this.groupBoxCobro_DistribucionPago.Enabled = false;
+            this.groupBoxCobro_DistribucionPago.Location = new System.Drawing.Point(882, 54);
+            this.groupBoxCobro_DistribucionPago.Name = "groupBoxCobro_DistribucionPago";
+            this.groupBoxCobro_DistribucionPago.Size = new System.Drawing.Size(390, 347);
+            this.groupBoxCobro_DistribucionPago.TabIndex = 13;
+            this.groupBoxCobro_DistribucionPago.TabStop = false;
+            // 
+            // txtCobros_TotalACobrar
+            // 
+            this.txtCobros_TotalACobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_TotalACobrar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_TotalACobrar.Enabled = false;
+            this.txtCobros_TotalACobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_TotalACobrar.Location = new System.Drawing.Point(212, 317);
+            this.txtCobros_TotalACobrar.MaxLength = 50;
+            this.txtCobros_TotalACobrar.Name = "txtCobros_TotalACobrar";
+            this.txtCobros_TotalACobrar.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_TotalACobrar.TabIndex = 92;
+            this.txtCobros_TotalACobrar.Text = "0";
+            this.txtCobros_TotalACobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCobros_TotalACobrar.TextChanged += new System.EventHandler(this.txtCobros_TotalACobrar_TextChanged);
+            // 
+            // txtCobros_CapitalACobrar
+            // 
+            this.txtCobros_CapitalACobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_CapitalACobrar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_CapitalACobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_CapitalACobrar.Location = new System.Drawing.Point(212, 266);
+            this.txtCobros_CapitalACobrar.MaxLength = 50;
+            this.txtCobros_CapitalACobrar.Name = "txtCobros_CapitalACobrar";
+            this.txtCobros_CapitalACobrar.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_CapitalACobrar.TabIndex = 5;
+            this.txtCobros_CapitalACobrar.Text = "0";
+            this.txtCobros_CapitalACobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCobros_CapitalACobrar.TextChanged += new System.EventHandler(this.txtCobros_CapitalACobrar_TextChanged);
+            this.txtCobros_CapitalACobrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCobros_CapitalACobrar_KeyPress);
+            // 
+            // label56
+            // 
+            this.label56.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label56.Location = new System.Drawing.Point(212, 245);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(106, 16);
+            this.label56.TabIndex = 89;
+            this.label56.Text = "Capital A Cobrar";
+            // 
+            // txtCobros_InteresACobrar
+            // 
+            this.txtCobros_InteresACobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_InteresACobrar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_InteresACobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_InteresACobrar.Location = new System.Drawing.Point(212, 218);
+            this.txtCobros_InteresACobrar.MaxLength = 50;
+            this.txtCobros_InteresACobrar.Name = "txtCobros_InteresACobrar";
+            this.txtCobros_InteresACobrar.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_InteresACobrar.TabIndex = 4;
+            this.txtCobros_InteresACobrar.Text = "0";
+            this.txtCobros_InteresACobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCobros_InteresACobrar.TextChanged += new System.EventHandler(this.txtCobros_InteresACobrar_TextChanged);
+            this.txtCobros_InteresACobrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCobros_InteresACobrar_KeyPress);
+            // 
+            // label57
+            // 
+            this.label57.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label57.Location = new System.Drawing.Point(212, 197);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(104, 16);
+            this.label57.TabIndex = 87;
+            this.label57.Text = "Interés A Cobrar";
+            // 
+            // txtCobros_ComisionACobrar
+            // 
+            this.txtCobros_ComisionACobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_ComisionACobrar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_ComisionACobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_ComisionACobrar.Location = new System.Drawing.Point(212, 170);
+            this.txtCobros_ComisionACobrar.MaxLength = 50;
+            this.txtCobros_ComisionACobrar.Name = "txtCobros_ComisionACobrar";
+            this.txtCobros_ComisionACobrar.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_ComisionACobrar.TabIndex = 3;
+            this.txtCobros_ComisionACobrar.Text = "0";
+            this.txtCobros_ComisionACobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCobros_ComisionACobrar.TextChanged += new System.EventHandler(this.txtCobros_ComisionACobrar_TextChanged);
+            this.txtCobros_ComisionACobrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCobros_ComisionACobrar_KeyPress);
+            // 
+            // label58
+            // 
+            this.label58.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label58.Location = new System.Drawing.Point(212, 149);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(120, 16);
+            this.label58.TabIndex = 85;
+            this.label58.Text = "Comisión A Cobrar";
+            // 
+            // txtCobros_MoraACobrar
+            // 
+            this.txtCobros_MoraACobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_MoraACobrar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_MoraACobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_MoraACobrar.Location = new System.Drawing.Point(212, 78);
+            this.txtCobros_MoraACobrar.MaxLength = 50;
+            this.txtCobros_MoraACobrar.Name = "txtCobros_MoraACobrar";
+            this.txtCobros_MoraACobrar.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_MoraACobrar.TabIndex = 1;
+            this.txtCobros_MoraACobrar.Text = "0";
+            this.txtCobros_MoraACobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCobros_MoraACobrar.TextChanged += new System.EventHandler(this.txtCobros_MoraACobrar_TextChanged);
+            this.txtCobros_MoraACobrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCobros_MoraACobrar_KeyPress);
+            // 
+            // label59
+            // 
+            this.label59.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label59.Location = new System.Drawing.Point(212, 57);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(95, 16);
+            this.label59.TabIndex = 83;
+            this.label59.Text = "Mora A Cobrar";
+            // 
+            // txtCobros_CargosACobrar
+            // 
+            this.txtCobros_CargosACobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_CargosACobrar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_CargosACobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_CargosACobrar.Location = new System.Drawing.Point(212, 30);
+            this.txtCobros_CargosACobrar.MaxLength = 50;
+            this.txtCobros_CargosACobrar.Name = "txtCobros_CargosACobrar";
+            this.txtCobros_CargosACobrar.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_CargosACobrar.TabIndex = 0;
+            this.txtCobros_CargosACobrar.Text = "0";
+            this.txtCobros_CargosACobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCobros_CargosACobrar.TextChanged += new System.EventHandler(this.txtCobros_CargosACobrar_TextChanged);
+            this.txtCobros_CargosACobrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCobros_CargosACobrar_KeyPress);
+            // 
+            // label60
+            // 
+            this.label60.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label60.Location = new System.Drawing.Point(212, 9);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(108, 16);
+            this.label60.TabIndex = 82;
+            this.label60.Text = "Cargos A Cobrar";
+            // 
+            // txtCobros_TotalPendiente
+            // 
+            this.txtCobros_TotalPendiente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_TotalPendiente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_TotalPendiente.Enabled = false;
+            this.txtCobros_TotalPendiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_TotalPendiente.Location = new System.Drawing.Point(26, 317);
+            this.txtCobros_TotalPendiente.MaxLength = 50;
+            this.txtCobros_TotalPendiente.Name = "txtCobros_TotalPendiente";
+            this.txtCobros_TotalPendiente.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_TotalPendiente.TabIndex = 80;
+            this.txtCobros_TotalPendiente.Text = "0";
+            this.txtCobros_TotalPendiente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtCobros_CapitalPendiente
+            // 
+            this.txtCobros_CapitalPendiente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_CapitalPendiente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_CapitalPendiente.Enabled = false;
+            this.txtCobros_CapitalPendiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_CapitalPendiente.Location = new System.Drawing.Point(26, 266);
+            this.txtCobros_CapitalPendiente.MaxLength = 50;
+            this.txtCobros_CapitalPendiente.Name = "txtCobros_CapitalPendiente";
+            this.txtCobros_CapitalPendiente.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_CapitalPendiente.TabIndex = 78;
+            this.txtCobros_CapitalPendiente.Text = "0";
+            this.txtCobros_CapitalPendiente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label62
+            // 
+            this.label62.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label62.Location = new System.Drawing.Point(26, 245);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(50, 16);
+            this.label62.TabIndex = 77;
+            this.label62.Text = "Capital";
+            // 
+            // txtCobros_InteresPendiente
+            // 
+            this.txtCobros_InteresPendiente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_InteresPendiente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_InteresPendiente.Enabled = false;
+            this.txtCobros_InteresPendiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_InteresPendiente.Location = new System.Drawing.Point(26, 218);
+            this.txtCobros_InteresPendiente.MaxLength = 50;
+            this.txtCobros_InteresPendiente.Name = "txtCobros_InteresPendiente";
+            this.txtCobros_InteresPendiente.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_InteresPendiente.TabIndex = 76;
+            this.txtCobros_InteresPendiente.Text = "0";
+            this.txtCobros_InteresPendiente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label63
+            // 
+            this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label63.Location = new System.Drawing.Point(26, 197);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(48, 16);
+            this.label63.TabIndex = 75;
+            this.label63.Text = "Interés";
+            // 
+            // txtCobros_ComisionPendiente
+            // 
+            this.txtCobros_ComisionPendiente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_ComisionPendiente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_ComisionPendiente.Enabled = false;
+            this.txtCobros_ComisionPendiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_ComisionPendiente.Location = new System.Drawing.Point(26, 170);
+            this.txtCobros_ComisionPendiente.MaxLength = 50;
+            this.txtCobros_ComisionPendiente.Name = "txtCobros_ComisionPendiente";
+            this.txtCobros_ComisionPendiente.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_ComisionPendiente.TabIndex = 74;
+            this.txtCobros_ComisionPendiente.Text = "0";
+            this.txtCobros_ComisionPendiente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label64
+            // 
+            this.label64.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label64.Location = new System.Drawing.Point(26, 149);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(64, 16);
+            this.label64.TabIndex = 73;
+            this.label64.Text = "Comisión";
+            // 
+            // txtCobros_MoraPendiente
+            // 
+            this.txtCobros_MoraPendiente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_MoraPendiente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_MoraPendiente.Enabled = false;
+            this.txtCobros_MoraPendiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_MoraPendiente.Location = new System.Drawing.Point(26, 78);
+            this.txtCobros_MoraPendiente.MaxLength = 50;
+            this.txtCobros_MoraPendiente.Name = "txtCobros_MoraPendiente";
+            this.txtCobros_MoraPendiente.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_MoraPendiente.TabIndex = 72;
+            this.txtCobros_MoraPendiente.Text = "0";
+            this.txtCobros_MoraPendiente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label65
+            // 
+            this.label65.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label65.Location = new System.Drawing.Point(26, 57);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(39, 16);
+            this.label65.TabIndex = 71;
+            this.label65.Text = "Mora";
+            // 
+            // txtCobros_CargosPendiente
+            // 
+            this.txtCobros_CargosPendiente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_CargosPendiente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_CargosPendiente.Enabled = false;
+            this.txtCobros_CargosPendiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_CargosPendiente.Location = new System.Drawing.Point(26, 30);
+            this.txtCobros_CargosPendiente.MaxLength = 50;
+            this.txtCobros_CargosPendiente.Name = "txtCobros_CargosPendiente";
+            this.txtCobros_CargosPendiente.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_CargosPendiente.TabIndex = 68;
+            this.txtCobros_CargosPendiente.Text = "0";
+            this.txtCobros_CargosPendiente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label66
+            // 
+            this.label66.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label66.Location = new System.Drawing.Point(26, 9);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(52, 16);
+            this.label66.TabIndex = 69;
+            this.label66.Text = "Cargos";
+            // 
+            // label61
+            // 
+            this.label61.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label61.Location = new System.Drawing.Point(26, 296);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(103, 16);
+            this.label61.TabIndex = 79;
+            this.label61.Text = "Total Pendiente";
+            // 
+            // label55
+            // 
+            this.label55.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label55.Location = new System.Drawing.Point(212, 296);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(39, 16);
+            this.label55.TabIndex = 91;
+            this.label55.Text = "Total";
+            // 
+            // txtCobros_SeguroACobrar
+            // 
+            this.txtCobros_SeguroACobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_SeguroACobrar.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_SeguroACobrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_SeguroACobrar.Location = new System.Drawing.Point(212, 127);
+            this.txtCobros_SeguroACobrar.MaxLength = 50;
+            this.txtCobros_SeguroACobrar.Name = "txtCobros_SeguroACobrar";
+            this.txtCobros_SeguroACobrar.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_SeguroACobrar.TabIndex = 2;
+            this.txtCobros_SeguroACobrar.Text = "0";
+            this.txtCobros_SeguroACobrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCobros_SeguroACobrar.TextChanged += new System.EventHandler(this.txtCobros_SeguroACobrar_TextChanged);
+            this.txtCobros_SeguroACobrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCobros_SeguroACobrar_KeyPress);
+            // 
+            // label67
+            // 
+            this.label67.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label67.Location = new System.Drawing.Point(212, 106);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(108, 16);
+            this.label67.TabIndex = 95;
+            this.label67.Text = "Seguro A Cobrar";
+            // 
+            // txtCobros_SeguroPendiente
+            // 
+            this.txtCobros_SeguroPendiente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCobros_SeguroPendiente.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtCobros_SeguroPendiente.Enabled = false;
+            this.txtCobros_SeguroPendiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCobros_SeguroPendiente.Location = new System.Drawing.Point(26, 127);
+            this.txtCobros_SeguroPendiente.MaxLength = 50;
+            this.txtCobros_SeguroPendiente.Name = "txtCobros_SeguroPendiente";
+            this.txtCobros_SeguroPendiente.Size = new System.Drawing.Size(159, 22);
+            this.txtCobros_SeguroPendiente.TabIndex = 94;
+            this.txtCobros_SeguroPendiente.Text = "0";
+            this.txtCobros_SeguroPendiente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label68
+            // 
+            this.label68.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.label68.Location = new System.Drawing.Point(26, 106);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(52, 16);
+            this.label68.TabIndex = 93;
+            this.label68.Text = "Seguro";
             // 
             // FormPrincipal
             // 
@@ -4945,7 +5369,6 @@
             this.groupBoxCliente_datosPersonales.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).EndInit();
             this.radGroupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.tabPage_DatosLaborables.ResumeLayout(false);
             this.groupBoxCliente_datosLaborales.ResumeLayout(false);
             this.groupBoxCliente_datosLaborales.PerformLayout();
@@ -4960,9 +5383,14 @@
             this.tabControl_Contenedor.ResumeLayout(false);
             this.tabPage_Inicio.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.panelinicio.ResumeLayout(false);
             this.panelinicio.PerformLayout();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartReportes_FormaPago)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartReportes_VigentesVsVencidas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartReportes_PrestamosPorMes)).EndInit();
@@ -4975,10 +5403,6 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.tabPage_Cobros.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.groupBox19.ResumeLayout(false);
-            this.groupBox19.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCobros_FiltroCobros)).EndInit();
             this.panel8.ResumeLayout(false);
             this.groupBox18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCobrosReportePrestamo)).EndInit();
@@ -5009,12 +5433,13 @@
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ControlsContainer)).EndInit();
             this.ControlsContainer.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCobros_FiltroCobros)).EndInit();
+            this.groupBox19.ResumeLayout(false);
+            this.groupBox19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
+            this.groupBoxCobro_DistribucionPago.ResumeLayout(false);
+            this.groupBoxCobro_DistribucionPago.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -5288,14 +5713,6 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.TextBox txtCobrosNombreCliente;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.GroupBox groupBox19;
-        private FontAwesome.Sharp.IconButton iconButtonCobrosFiltrarCobros;
-        private System.Windows.Forms.DateTimePicker dtpCobrosHasta;
-        private System.Windows.Forms.DateTimePicker dtpCobrosDesde;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.DataGridView dataGridViewCobros_FiltroCobros;
         private System.Windows.Forms.TextBox txtCobrosCodigoCliente;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.DataGridView dataGridViewCobrosReportePrestamo;
@@ -5316,5 +5733,41 @@
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.GroupBox groupBox19;
+        private FontAwesome.Sharp.IconButton iconButtonCobrosFiltrarCobros;
+        private System.Windows.Forms.DateTimePicker dtpCobrosHasta;
+        private System.Windows.Forms.DateTimePicker dtpCobrosDesde;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.DataGridView dataGridViewCobros_FiltroCobros;
+        private System.Windows.Forms.GroupBox groupBoxCobro_DistribucionPago;
+        private System.Windows.Forms.TextBox txtCobros_TotalACobrar;
+        private System.Windows.Forms.TextBox txtCobros_CapitalACobrar;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.TextBox txtCobros_InteresACobrar;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.TextBox txtCobros_ComisionACobrar;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.TextBox txtCobros_MoraACobrar;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox txtCobros_CargosACobrar;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox txtCobros_TotalPendiente;
+        private System.Windows.Forms.TextBox txtCobros_CapitalPendiente;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.TextBox txtCobros_InteresPendiente;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.TextBox txtCobros_ComisionPendiente;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.TextBox txtCobros_MoraPendiente;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.TextBox txtCobros_CargosPendiente;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.TextBox txtCobros_SeguroACobrar;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.TextBox txtCobros_SeguroPendiente;
+        private System.Windows.Forms.Label label68;
     }
 }

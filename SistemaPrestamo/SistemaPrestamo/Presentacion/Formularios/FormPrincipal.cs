@@ -724,7 +724,7 @@ namespace Presentacion.Formularios
         {
             object[] objectos = {
 
-               txtCobrosCodigoPrestamo,
+                txtCobrosCodigoPrestamo,
                 txtCobrosCodigoCliente,
                 txtCobrosNombreCliente,
                 txtCobrosTotalDeAtraso,
@@ -733,11 +733,25 @@ namespace Presentacion.Formularios
                 txtCobrosDevuelta,
                 comboBoxCobrosFormaPago,
                 comboBoxCobrosDistribucionPago,
-                dtpCobrosDesde,
-                dtpCobrosHasta,
                 dataGridViewCobrosReportePrestamo,
-                dataGridViewCobros_FiltroCobros,
-                txtCobrosPagoCon
+                txtCobrosPagoCon,
+
+                txtCobros_CargosPendiente,
+                txtCobros_MoraPendiente,
+                txtCobros_SeguroPendiente,
+                txtCobros_ComisionPendiente,
+                txtCobros_InteresPendiente,
+                txtCobros_CapitalPendiente,
+                txtCobros_CargosACobrar,
+                txtCobros_MoraACobrar,
+                txtCobros_SeguroACobrar,
+                txtCobros_ComisionACobrar,
+                txtCobros_InteresACobrar,
+                txtCobros_CapitalACobrar,
+
+                txtCobros_TotalPendiente,
+                txtCobros_TotalACobrar,
+
             };
 
             cobro = new CobroVM(objectos);
@@ -755,6 +769,7 @@ namespace Presentacion.Formularios
                 txtCobrosCodigoPrestamo.Text = objForm.dataGridViewPrest.Rows[objForm.dataGridViewPrest.CurrentRow.Index].Cells[4].Value.ToString().Trim();
 
                 cobro.GetReportePrestamo();
+                cobro.GetDeudaPendiente();
             }
         }
 
@@ -837,6 +852,83 @@ namespace Presentacion.Formularios
         private void iconButtonCobrosCancelar_Click(object sender, EventArgs e)
         {
             cobro.RestablecerCobros();
+        }
+
+        private void comboBoxCobrosDistribucionPago_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cobro.GetIdDistribucion(comboBoxCobrosDistribucionPago, groupBoxCobro_DistribucionPago);
+        }
+
+        private void txtCobros_CargosACobrar_TextChanged(object sender, EventArgs e)
+        {
+           cobro.ValidarTxtVacio(txtCobros_CargosACobrar);
+           cobro.SumAcobrar();
+        }
+
+        private void txtCobros_MoraACobrar_TextChanged(object sender, EventArgs e)
+        {
+            cobro.ValidarTxtVacio(txtCobros_MoraACobrar);
+            cobro.SumAcobrar();
+        }
+
+        private void txtCobros_SeguroACobrar_TextChanged(object sender, EventArgs e)
+        {
+            cobro.ValidarTxtVacio(txtCobros_SeguroACobrar);
+            cobro.SumAcobrar();
+        }
+
+        private void txtCobros_ComisionACobrar_TextChanged(object sender, EventArgs e)
+        {
+            cobro.ValidarTxtVacio(txtCobros_ComisionACobrar);
+            cobro.SumAcobrar();
+        }
+
+        private void txtCobros_InteresACobrar_TextChanged(object sender, EventArgs e)
+        {
+            cobro.ValidarTxtVacio(txtCobros_InteresACobrar);
+            cobro.SumAcobrar();
+        }
+
+        private void txtCobros_CapitalACobrar_TextChanged(object sender, EventArgs e)
+        {
+            cobro.ValidarTxtVacio(txtCobros_CapitalACobrar);
+            cobro.SumAcobrar();
+        }
+
+        private void txtCobros_TotalACobrar_TextChanged(object sender, EventArgs e)
+        {
+            cobro.ValidarTxtVacio(txtCobros_TotalACobrar);
+            cobro.SumAcobrar();
+        }
+
+        private void txtCobros_CargosACobrar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            textBoxEvent.soloNumeroEntero(e);
+        }
+
+        private void txtCobros_MoraACobrar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            textBoxEvent.soloNumeroEntero(e);
+        }
+
+        private void txtCobros_SeguroACobrar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            textBoxEvent.soloNumeroEntero(e);
+        }
+
+        private void txtCobros_ComisionACobrar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            textBoxEvent.soloNumeroEntero(e);
+        }
+
+        private void txtCobros_InteresACobrar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            textBoxEvent.soloNumeroEntero(e);
+        }
+
+        private void txtCobros_CapitalACobrar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            textBoxEvent.soloNumeroEntero(e);
         }
 
         #endregion
@@ -1026,6 +1118,9 @@ namespace Presentacion.Formularios
             tabControl_Contenedor.SelectedTab = tabPage_Configuracion;
         }
 
+
         #endregion
+
+  
     }
 }

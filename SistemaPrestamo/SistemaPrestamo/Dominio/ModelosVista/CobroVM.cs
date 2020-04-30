@@ -24,10 +24,22 @@ namespace Dominio.ModelosVista
         private ComboBox comboBoxCobrosFormaPago;
         private ComboBox comboBoxCobrosDistribucionPago;
         private TextBox txtCobrosPagoCon;
-        private DateTimePicker dtpCobrosDesde;
-        private DateTimePicker dtpCobrosHasta;
         private DataGridView dataGridViewCobrosReportePrestamo;
-        private DataGridView dataGridViewCobrosFiltroCobros; 
+
+        private TextBox _txtCobros_CargosPendiente;
+        private TextBox _txtCobros_MoraPendiente;
+        private TextBox _txtCobros_SeguroPendiente;
+        private TextBox _txtCobros_ComisionPendiente;
+        private TextBox _txtCobros_InteresPendiente;
+        private TextBox _txtCobros_CapitalPendiente;
+        private TextBox _txtCobros_CargosACobrar;
+        private TextBox _txtCobros_MoraACobrar;
+        private TextBox _txtCobros_SeguroACobrar;
+        private TextBox _txtCobros_ComisionACobrar;
+        private TextBox _txtCobros_InteresACobrar;
+        private TextBox _txtCobros_CapitalACobrar;
+        private TextBox _txtCobros_TotalPendiente;
+        private TextBox _txtCobros_TotalACobrar;
 
         public CobroVM(object[] objectos)
         {
@@ -40,11 +52,24 @@ namespace Dominio.ModelosVista
             this.txtCobrosDevuelta = (TextBox)objectos[6];
             this.comboBoxCobrosFormaPago = (ComboBox)objectos[7];
             this.comboBoxCobrosDistribucionPago = (ComboBox)objectos[8];
-            this.dtpCobrosDesde = (DateTimePicker)objectos[9];
-            this.dtpCobrosHasta = (DateTimePicker)objectos[10];
-            this.dataGridViewCobrosReportePrestamo = (DataGridView)objectos[11];
-            this.dataGridViewCobrosFiltroCobros = (DataGridView)objectos[12];
-            this.txtCobrosPagoCon = (TextBox)objectos[13];
+            this.dataGridViewCobrosReportePrestamo = (DataGridView)objectos[9];
+            this.txtCobrosPagoCon = (TextBox)objectos[10];
+
+            _txtCobros_CargosPendiente = (TextBox)objectos[11];
+            _txtCobros_MoraPendiente = (TextBox)objectos[12];
+            _txtCobros_SeguroPendiente = (TextBox)objectos[13];
+            _txtCobros_ComisionPendiente = (TextBox)objectos[14];
+            _txtCobros_InteresPendiente = (TextBox)objectos[15];
+            _txtCobros_CapitalPendiente = (TextBox)objectos[16];
+            _txtCobros_CargosACobrar = (TextBox)objectos[17];
+            _txtCobros_MoraACobrar = (TextBox)objectos[18];
+            _txtCobros_SeguroACobrar = (TextBox)objectos[19];
+            _txtCobros_ComisionACobrar = (TextBox)objectos[20];
+            _txtCobros_InteresACobrar = (TextBox)objectos[21];
+            _txtCobros_CapitalACobrar = (TextBox)objectos[22];
+
+            _txtCobros_TotalPendiente = (TextBox)objectos[23];
+            _txtCobros_TotalACobrar = (TextBox)objectos[24];
         }
        
         public void GenerarCodigoRecibo()
@@ -98,6 +123,71 @@ namespace Dominio.ModelosVista
             dataGridViewCobrosReportePrestamo.Columns[8].HeaderText = "Acumulado";
             dataGridViewCobrosReportePrestamo.Columns[9].HeaderText = "Estado";
             dataGridViewCobrosReportePrestamo.Columns[0].Width = 50;
+        }
+
+        public void GetDeudaPendiente()
+        {
+            var query = reportePrestamos.Where(r => r.CodigoSolicitud.Equals(txtCobrosCodigoPrestamo.Text.Trim()) && r.IdEstadoCuota.Equals(2)).ToList();
+            if (query.Count > 0)
+            {
+                int carg = 0;
+                int mora = 0;
+                int segu = 0;
+                int comi = 0;
+                int inte = 0;
+                int capi = 0;
+                int total = 0;
+
+                query.ForEach(item => {
+                    carg += item.Cargos;
+                    mora += item.Mora;
+                    segu += Convert.ToInt32(item.Seguro);
+                    comi += Convert.ToInt32(item.Comision);
+                    inte += Convert.ToInt32(item.Interes);
+                    capi += item.Capital;
+                });
+
+                total = carg + mora + segu + comi + inte + capi;
+
+                _txtCobros_CargosPendiente.Text = carg.ToString();
+                _txtCobros_MoraPendiente.Text = mora.ToString();
+                _txtCobros_SeguroPendiente.Text = segu.ToString();
+                _txtCobros_ComisionPendiente.Text = comi.ToString();
+                _txtCobros_InteresPendiente.Text = inte.ToString();
+                _txtCobros_CapitalPendiente.Text = capi.ToString();
+                _txtCobros_TotalPendiente.Text = total.ToString();
+                
+            }
+        }
+
+        public void SumAcobrar()
+        {
+        
+            int carg = Convert.ToInt32(_txtCobros_CargosACobrar.Text);
+            int mora = Convert.ToInt32(_txtCobros_MoraACobrar.Text);
+            int segu = Convert.ToInt32(_txtCobros_SeguroACobrar.Text);
+            int comi = Convert.ToInt32(_txtCobros_ComisionACobrar.Text);
+            int inte = Convert.ToInt32(_txtCobros_InteresACobrar.Text);
+            int capi = Convert.ToInt32(_txtCobros_CapitalACobrar.Text);
+            int total = 0;
+
+            if (_txtCobros_CargosPendiente.Text == "0")
+            {
+                carg = 0;
+                MessageBox.Show("El cliente no tiene cargos generado, por lo que no se debe cobrar cargos.");
+            }
+
+            if (_txtCobros_MoraPendiente.Text == "0")
+            {
+                mora = 0;
+                MessageBox.Show("El cliente no tiene mora generado, por lo que no se debe cobrar mora.");
+            }
+
+
+
+            total = carg + mora + segu + comi + inte + capi;
+            _txtCobros_TotalACobrar.Text = total.ToString();
+
         }
 
         public void GetTipoPago()
@@ -198,12 +288,26 @@ namespace Dominio.ModelosVista
             this.txtCobrosConcepto.Clear();
             this.txtCobrosDevuelta.Text = "0";
             this.txtCobrosPagoCon.Text = "0";
+
             GetTipoPago();
             GetDistribucionPago();
-            this.dtpCobrosDesde.ResetText();
-            this.dtpCobrosHasta.ResetText();
             this.dataGridViewCobrosReportePrestamo.DataSource = null;
-            this.dataGridViewCobrosFiltroCobros.DataSource = null;
+
+            _txtCobros_CargosPendiente.Text = "0";
+            _txtCobros_MoraPendiente.Text = "0";
+            _txtCobros_SeguroPendiente.Text = "0";
+            _txtCobros_ComisionPendiente.Text = "0";
+            _txtCobros_InteresPendiente.Text = "0";
+            _txtCobros_CapitalPendiente.Text = "0";
+            _txtCobros_CargosACobrar.Text = "0";
+            _txtCobros_MoraACobrar.Text = "0";
+            _txtCobros_SeguroACobrar.Text = "0";
+            _txtCobros_ComisionACobrar.Text = "0";
+            _txtCobros_InteresACobrar.Text = "0";
+            _txtCobros_CapitalACobrar.Text = "0";
+            _txtCobros_TotalPendiente.Text = "0";
+            _txtCobros_TotalACobrar.Text = "0";
+
         }
 
         private void DistribucionCobro()
@@ -610,6 +714,24 @@ namespace Dominio.ModelosVista
             return vacio;
         }
 
+        public void GetIdDistribucion(ComboBox comboBox, GroupBox groupBox)
+        {
+            var query = distribucionPagos.Where(d => d.Descripcion.Equals(comboBox.Text)).ToList();
+
+            if (query.Count > 0)
+            {
+                int id = query[0].IdDistribucion;
+
+                if (id == 1)
+                {
+                    groupBox.Enabled = false;
+                }
+                else if (id == 2)
+                {
+                    groupBox.Enabled = true;
+                }
+            }
+        }
     }
 
 }
